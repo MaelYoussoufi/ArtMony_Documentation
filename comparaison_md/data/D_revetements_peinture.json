@@ -1,0 +1,926 @@
+{
+  "agent": "D_revetements_peinture",
+  "perimetre": "Revêtements de sols et de murs (stratifié, carrelage, faïence, moquette, tapis, plinthes, seuils), faux plafond acoustique des circulations, peintures intérieures, extérieures et de sol (logements, parties communes, parking)",
+  "items": [
+    {
+      "article": "2.1.1",
+      "titre": "Sol stratifié des pièces principales (entrée, séjour, chambres, dégagements) - bât. B et C (accession)",
+      "notice": "« D'un sol stratifié de chez BERRYALLOC modèle TRENDLINE Pro, ou au moins équivalent. Dimensions et coloris au choix selon sélections proposées par le maître d'ouvrage » (p.9).",
+      "doe": "FMA A1 (Accession, 24/06/2025) : BERRYALLOC TRENDLINE Pro, pose flottante, localisation entrée/séjour/chambres/dégagements. Fiche technique jointe intitulée « Trendline 8 UPEC » (BerryAlloc, version 03/2023) : lame 1288 x 190 x 8 mm, sans chanfrein, DuoLoc, âme HDF hydrofuge, classe d'usage 23 (domestique intense) / 32 (commercial général), AC4, Cfl-s1, E1, densité 900 kg/m3, garantie 20 ans résidentiel / 5 ans commercial, DOP 170-DPLA23-1. Sous-couche BerryAlloc EXCELLENCE IMPACT+ (3 mm, pare-humidité intégré, deltaLw 19 dB). Le classement UPEC ne figure pas en clair dans les pages fournies.",
+      "verdict": "bleu",
+      "equivalence": true,
+      "justification": "La marque et la référence de la FMA (TRENDLINE Pro) sont celles de la notice. La fiche jointe porte le nom « Trendline 8 », mais ses caractéristiques sont identiques à celles annoncées pour Trendline Pro : 8 mm, 1288 x 190 mm, classes 23/32, AC4, DuoLoc, 9 lames / 2,20 m2, 20 ans. Il s'agit selon toute vraisemblance de la même lame sous sa dénomination 2023. Le certificat CSTB de Trendline Pro donne un classement U2S P2 E1 C2 en pose flottante sur Excellence Impact+, la sous-couche effectivement fournie, ce qui correspond au classement attendu pour des pièces sèches de logement. Réserve : le certificat UPEC lui-même n'est pas joint au DOE.",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/Parquet - sol souple/3. Fiches produits/10_SO_N FMA_A1_Stratifié pose flottante/HAR_EXE_TZ_PAR_TN_FMA_0A1_ind_A_Stratifié pose flottante.pdf",
+          "pages": "p.1"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/Parquet - sol souple/3. Fiches produits/10_SO_N FMA_A1_Stratifié pose flottante/RDS 001 - parquet/FICHE TECHNIQUE Trendline 8 UPEC_LAM_ByBerryAlloc_TDS_FR.pdf",
+          "pages": "p.1-2"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/Parquet - sol souple/3. Fiches produits/10_SO_N FMA_A1_Stratifié pose flottante/RDS 001 - parquet/Excellence-Impact-Plus-Underlay-ACC-FR.pdf",
+          "pages": "p.1"
+        }
+      ],
+      "sources_web": [
+        {
+          "url": "https://medias.bigmat.fr/data_medias/medias_finaux/documents/5414404195661-E0mMxVL2cb.pdf",
+          "titre": "Certificat CSTB QB 26 - Systèmes de revêtements de sol stratifiés TRENDLINE PRO (BerryAlloc)",
+          "apport": "Trendline Pro est certifiée QB/UPEC U2S P2 E1 C2 (AC4, gonflement <=18 %) en pose flottante sur la sous-couche associée EXCELLENCE IMPACT + (décision ST18-048 du 02/06/2020)."
+        },
+        {
+          "url": "https://www.capeb.fr/www/capeb/media/vosges/document/dossier-de-presse-stratifie-pro-promo-immo-2023.pdf",
+          "titre": "Dossier de presse BerryAlloc - Stratifié Pro / promotion immobilière (juin 2023)",
+          "apport": "Gamme 'Stratifié Pro' classée UPEC destinée aux promoteurs : classe d'usage 23 (résidentiel) / 32 (commercial), AC4, A+, UPEC en pose flottante avec sous-couche Impact+."
+        },
+        {
+          "url": "https://api-pro.union-materiaux.fr/api/product-notice/324237_344461_324237.pdf",
+          "titre": "Fiche technique Trendline 8 by BerryAlloc (version 03/2023), base Union Matériaux",
+          "apport": "Même fiche que celle du DOE : 1288 x 190 x 8 mm, DuoLoc, 9 lames / 2,20 m2, DOP 170-DPLA23-1 ; caractéristiques identiques à celles annoncées pour Trendline Pro."
+        }
+      ]
+    },
+    {
+      "article": "2.1.1",
+      "titre": "Sol des pièces principales - bât. A (I3F, logement social)",
+      "notice": "La notice ATTITUDE prévoit un stratifié BERRYALLOC TRENDLINE Pro (p.9). Le bât. A est vendu au bailleur I3F, qui a son propre descriptif : la FMA I2 cite « Page 9 - 2.1.1 : GERFLOR ou équivalent, Tradiflor ».",
+      "doe": "FMA I2 (I3F, 01/08/2025) : sol PVC GERFLOR TRADIFLOR 2S3 dans les logements. Épaisseur totale 2,80 mm, couche d'usure 0,25 mm, 2 135 g/m2, classe 23-31, UPEC U2SP3E2/3C2, Cfl-s1, lés de 2 m.",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Le bât. A ne relève pas de la notice ATTITUDE (accession) mais du descriptif du bailleur, qui prévoit explicitement un PVC Gerflor Tradiflor : le produit posé lui est conforme. Comparé à la notice ATTITUDE, un PVC homogène de 2,8 mm (classe 23/31) est une prestation d'un niveau différent, et plutôt inférieur, à un stratifié de 8 mm (classe 23/32). À signaler seulement si la notice ATTITUDE était opposable au bât. A.",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/Parquet - sol souple/3. Fiches produits/15_SO_N FMA_I2_Sol PVC/HAR_EXE_TZ_SS_TN_FMA_0I2_ind_A_Sol PVC.pdf",
+          "pages": "p.1-2"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "2.1.1 / 2.1.2",
+      "titre": "Plinthes des logements (MDF blanches 70 mm finies usine)",
+      "notice": "« Les plinthes seront en médium (MDF) blanches et finies usine de 70 mm de hauteur » (p.9, pièces principales, cuisines et pièces de service).",
+      "doe": "Lot 09B, FMA A16 (Accession, 07/09/2025) : Guimier, « Plinthes médium (MDF) - 70x100mm - Bord droit - Finition à peindre », pièces humides et sèches. La fiche technique jointe est en revanche celle d'une « plinthe bois » massif rabotée, choix AB, angles vifs, section 10 x 70 surlignée. Lot 16 (peinture, fiche « BOISERIES ET PLINTHES ») : finition sur chantier en GARNYSATIN (Seigneurie).",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "La hauteur de 70 mm est respectée. Il y a toutefois deux écarts avec la notice. D'abord une contradiction sur le matériau : la FMA indique du MDF, la fiche technique une plinthe en bois massif de 10 x 70. Ensuite la finition : la notice annonce une plinthe blanche « finie usine », alors que le DOE montre une plinthe « à peindre », laquée sur place à la glycéro satinée. Le bois massif n'est pas inférieur au MDF, mais une finition sur chantier n'équivaut pas à un laquage usine. Ce point est à faire préciser.",
+      "sources_doe": [
+        {
+          "fichier": "09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A16_Plinthes/HAR_EXE_TZ_MIN_TN_FMA_0A16_ind_A_Plinthes.pdf",
+          "pages": "p.1-2"
+        },
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglet BOISERIES ET PLINTHES"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "2.1.1",
+      "titre": "Carrelage des cuisines et placards attenants - bât. B et C",
+      "notice": "« Les cuisines et placards attenants seront revêtus d'un carrelage de chez KERABEN modèle ALASKA ou DISTRICT ou BARRINGTON 45 x 45 cm ou ARTE DECO modèle LIMBO ou VILLA 45x45 cm ou équivalent » (p.9).",
+      "doe": "La FT n°0008 (RECMA) porte bien sur les modèles de la notice (grès cérame 45x45 KERABEN DISTRICT Gris, BARRINGTON Grafito, ALASKA Blanc ; ARTE DECO LIMBO Taupe/Gris/Blanc, VILLA Genève), mais sa localisation est « WC, buanderie, SdE et SdB » : les cuisines n'y figurent pas. La liste des fournisseurs ne cite les cuisines pour aucun revêtement de sol, et la FMA du stratifié ne vise que entrée/séjour/chambres/dégagements.",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Le revêtement de sol des cuisines n'est pas documenté en tant que tel. Il s'agit très probablement du même carrelage 45x45 que dans les pièces de service, mais aucune pièce du DOE ne le dit. À faire confirmer : soit la localisation de la FT n°0008 doit être complétée, soit la nature du sol des cuisines ouvertes doit être précisée.",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0008 - 45X45 KERABEN & ARTE DECO - BAT B & C.pdf",
+          "pages": "p.1",
+          "note": "localisation : WC, buanderie, SdE et SdB"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/2 - LISTE DES FOURNISSEURS/LISTE DES FOURNISSEURS.pdf",
+          "pages": "p.1"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/Parquet - sol souple/3. Fiches produits/10_SO_N FMA_A1_Stratifié pose flottante/HAR_EXE_TZ_PAR_TN_FMA_0A1_ind_A_Stratifié pose flottante.pdf",
+          "pages": "p.1"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "2.1.2",
+      "titre": "Carrelage de sol des WC, buanderies, salles d'eau et salles de bains - bât. B et C",
+      "notice": "« D'un carrelage de chez KERABEN modèle ALASKA ou DISTRICT ou BARRINGTON 45 x 45 cm ou ARTE DECO modèle LIMBO ou VILLA 45x45 cm ou équivalent » (p.9).",
+      "doe": "FT n°0008 (RECMA, bât. B et C, WC/buanderie/SdE/SdB) : grès cérame 45x45 KERABEN DISTRICT Gris, BARRINGTON Grafito, ALASKA Blanc et ARTE DECO LIMBO Taupe/Gris/Blanc, VILLA Genève, finition mate. KERABEN District : grès cérame émaillé BIa, absorption < 0,15 %, PEI 4, épaisseur 9,2 mm. ARTE DECO Limbo : UPEC U3S P3 (blanc) / U2S P3 (autres teintes), R9, garantie 2 ans. Le DOE contient aussi des FT « base marché » pour d'autres formats dans les mêmes pièces : 60x60 KERABEN MIXIT / VERSE / UNDERGROUND (FT 0009), 20x120 KERABEN NATURWOOD (FT 0010), 15x61 ARTE DECO IGUANE (FT 0011).",
+      "verdict": "bleu",
+      "equivalence": false,
+      "justification": "Les séries et le format posés sont exactement ceux de la notice (5 modèles sur 5). Les classements UPEC lisibles (U2S/U3S, P3) dépassent le minimum requis pour des pièces humides de logement (U2s P2). Les autres formats (60x60, 20x120 imitation bois, 15x61) correspondent vraisemblablement à des harmonies ou options proposées par le maître d'ouvrage ; ce sont des formats plus grands, donc pas une moins-value.",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0008 - 45X45 KERABEN & ARTE DECO - BAT B & C.pdf",
+          "pages": "p.1-10"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0009 - 60X60 KERABEN - BAT B & C.pdf",
+          "pages": "p.1"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0010 - 20X120 KERABEN - BAT B & C.pdf",
+          "pages": "p.1"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0011 - 15X61 ARTE DECO - BAT B & C.pdf",
+          "pages": "p.1"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/2 - LISTE DES FOURNISSEURS/LISTE DES FOURNISSEURS.pdf",
+          "pages": "p.1"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "2.1",
+      "titre": "Seuils et barres de seuil aux changements de revêtement",
+      "notice": "« A chaque changement de nature de revêtement de sol, il sera posé un profilé d'arrêt ou une barre de seuil compensée ou non » (p.8).",
+      "doe": "FMA A2 : barre de seuil parquet/carrelage PROGRESS PROFILES PROSOL PLS35A, aluminium anodisé argent, 35 mm. FMA A3 : barre de jonction BerryAlloc (1000 x 40 x 8 mm, décor identique au sol) entre stratifiés. FT n°0019 : seuil de rattrapage ACIAL aluminium anodisé (SR 45, 4,5 x 28 ou 8 x 34 mm). FT n°0020 : cornières ACIAL alu et PVC.",
+      "verdict": "bleu",
+      "equivalence": false,
+      "justification": "Le DOE documente un profilé pour chacune des jonctions possibles (stratifié/carrelage, stratifié/stratifié, rattrapage de niveau). L'exigence générique de la notice est remplie, avec des profilés aluminium de marques reconnues.",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/Parquet - sol souple/3. Fiches produits/10_SO_N FMA_A2_Barre de seuil entre parquet.carrelage/HAR_EXE_TZ_PAR_TN_FMA_0A2_ind_A_Barre de seuil entre parquet.carrelage.pdf",
+          "pages": "p.1-2"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/Parquet - sol souple/3. Fiches produits/10_SO_N FMA_A3_Barre de seuil entre parquet.parquet/HAR_EXE_TZ_PAR_TN_FMA_0A3_ind_A_Barre de seuil entre parquet.parquet.pdf",
+          "pages": "p.1-2"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0019 - SEUIL RATTRAPE NIVEAUX ALU.pdf",
+          "pages": "p.1-2"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0020 - CORNIERE DROIT ALU & PVC.pdf",
+          "pages": "p.1"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "2.2.1",
+      "titre": "Faïence murale des salles d'eau / salles de bains - bât. B et C",
+      "notice": "« Faïence de chez KERABEN modèles ESSENTIAL ou RC FLOW ou ALOE ou SUPERWHITE ou EVOQUE ou VERSE, 30 x 60 cm, ou IMOLA URBIKO 15 x 60 / STONCRETE 30 x 60 » (p.9).",
+      "doe": "FT n°0012 (RECMA) : faïence 30x60 KERABEN EVOQUE Blanco mate, VERSE Grey, VERSE CONCEPT Grey, RC Blanco Brillo, RC FLOW Blanco Brillo, SUPERWHITE Gloss, SUPERWHITE GEOMETRIC Gloss. FT n°0013 : faïence 31x61 KERABEN / RC BROOKLYN (concept) Blanc, LAUNA / STONEART Crema, XALOC Beige (modèles absents de la liste de la notice), cochée « équivalence ».",
+      "verdict": "bleu",
+      "equivalence": false,
+      "justification": "Les références 30x60 (EVOQUE, VERSE, RC FLOW, SUPERWHITE) figurent dans la liste de la notice, chez le même fabricant et au même format. ESSENTIAL, ALOE et IMOLA ne sont pas utilisés, mais la notice les donne comme alternatives. Les modèles 31x61 de la FT 0013 sortent de la liste : ils sont de même marque, d'un format équivalent et explicitement présentés comme équivalents. Aucun indice de moins-value.",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0012 - 30X60 KERABEN - BAT B & C.pdf",
+          "pages": "p.1-8"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0013 - 31X61 KERABEN - BAT B & C.pdf",
+          "pages": "p.1-6"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/2 - LISTE DES FOURNISSEURS/LISTE DES FOURNISSEURS.pdf",
+          "pages": "p.1"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "2.2.1",
+      "titre": "Localisation de la faïence : 3 faces de la douche toute hauteur et mur d'adossement du WC",
+      "notice": "« Localisation : toute hauteur sur les 3 faces du receveur de douche ; mur d'adossement du WC » (p.9).",
+      "doe": "FT n°0012 / n°0013, rubrique localisation : « SdB et SdE : au droit de la baignoire et la douche - toute hauteur sur les geberits Ht 1,20m sans tablette ».",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "La formule du DOE est ambiguë. Elle couvre le pourtour de la douche et de la baignoire, mais n'indique pas explicitement « toute hauteur » sur les 3 faces de la douche. Côté WC, elle vise l'habillage du bâti-support Geberit sur 1,20 m de haut, et non clairement l'ensemble du mur d'adossement. La notice ne fixe pas de hauteur pour le mur d'adossement, mais si seul le coffrage de 1,20 m est carrelé, la surface est moindre que ce qu'elle laisse attendre. À vérifier sur place ou sur les plans de calepinage, qui ne figurent pas dans ce DOE.",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0012 - 30X60 KERABEN - BAT B & C.pdf",
+          "pages": "p.1"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0013 - 31X61 KERABEN - BAT B & C.pdf",
+          "pages": "p.1"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "2.2.1",
+      "titre": "Crédence en verre teinté blanc de 20 cm derrière le meuble vasque",
+      "notice": "« Meuble vasque : crédence sur une hauteur de 20 cm en verre teinté en blanc (fond du meuble et retours latéraux sur la largeur du meuble) » (p.9).",
+      "doe": "Rien dans les lots 10-14-15, 11 et 16. Aucune occurrence de « crédence » ni de verre laqué/teinté dans l'ensemble des textes du DOE.",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Non documenté dans ce DOE (« 1er envoi »). La crédence verre est en général fournie avec le meuble vasque (lot plomberie ou fournisseur du meuble) ; il faut demander la fiche produit correspondante.",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/2 - LISTE DES FOURNISSEURS/LISTE DES FOURNISSEURS.pdf",
+          "pages": "p.1",
+          "note": "aucune crédence listée"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "2.2.1",
+      "titre": "Crédence de cuisine en faïence 20x20 blanche - bât. B et C",
+      "notice": "« Les murs et cloisons situés à l'arrière et sur les côtés de l'évier et de la zone de cuisson sont recouverts par une crédence ... soit 1 rang de Faïence 20*20 cm - BLANC au droit du meuble » (p.9).",
+      "doe": "Pour les bât. B et C, aucune FT de faïence 20x20 de cuisine. La seule faïence 20x20 de cuisine du DOE concerne le bât. A (FT n°0006 PRIMUS VITORIA). La liste des fournisseurs ne mentionne aucune crédence de cuisine pour B et C.",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Non documenté pour les logements en accession. La crédence peut relever du lot cuisine/kitchenette ; à réclamer.",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/2 - LISTE DES FOURNISSEURS/LISTE DES FOURNISSEURS.pdf",
+          "pages": "p.1"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0006 - 20X20 PRIMUS VITORIA - BAT A.pdf",
+          "pages": "p.1",
+          "note": "bât. A uniquement"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "2.2.1",
+      "titre": "Crédence de cuisine en faïence 20x20 blanche - bât. A (I3F)",
+      "notice": "« 1 rang de Faïence 20*20 cm - BLANC au droit du meuble » (p.9). Prescription ATTITUDE donnée à titre de comparaison, le bât. A relevant du descriptif I3F.",
+      "doe": "FT n°0006 (bât. A, meuble évier / kitchenette) : faïence murale 20x20 PRIMUS VITORIA, série Technical, coloris Blanc, finition brillante.",
+      "verdict": "bleu",
+      "equivalence": false,
+      "justification": "Format 20x20 et teinte blanche identiques à l'exigence générique de la notice ; la localisation (meuble évier, kitchenette) correspond.",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0006 - 20X20 PRIMUS VITORIA - BAT A.pdf",
+          "pages": "p.1-3"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/2 - LISTE DES FOURNISSEURS/LISTE DES FOURNISSEURS.pdf",
+          "pages": "p.1"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "2.1.2 / 2.2.1",
+      "titre": "Carrelage de sol et faïence des pièces de service - bât. A (I3F)",
+      "notice": "La notice ATTITUDE prévoit KERABEN / ARTE DECO 45x45 au sol et KERABEN / IMOLA 30x60 en faïence (p.9). Le bât. A relève du descriptif du bailleur I3F.",
+      "doe": "FT n°0003 : sol grès cérame 45x45 SALONI série GARD coloris Vision, mat, UPEC U3 P3 E3 C2, PEI 4 (WC, SdB, SdE, buanderie, RDC au R+5). FT n°0004 : faïence 25x50 SALONI GARD Vision et TREVES Vision, finition lisse (SdB et SdE). Locaux d'entretien : ARTE DECO TECHNO+ Gris Poivré 20x20 antidérapant (U4P4E3C2, R11) au sol et en faïence (FT 0001 et 0005).",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Ce sont des marques et formats différents de la notice ATTITUDE, mais le bât. A n'y est pas soumis : le bailleur a son propre descriptif, non fourni ici, ce qui empêche une comparaison stricte. Le sol (U3P3E3C2) dépasse les exigences UPEC d'une pièce humide de logement. La faïence 25x50 est d'un format un peu plus petit que le 30x60 de la notice ATTITUDE.",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0003 - 45X45 SALONI - BAT A.pdf",
+          "pages": "p.1-5"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0004 - 25X50 SALONI BAT A.pdf",
+          "pages": "p.1-5"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0001 - 20X20 ARTE DECO ANTIDERAPANT - BAT A.pdf",
+          "pages": "p.1"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/2 - LISTE DES FOURNISSEURS/LISTE DES FOURNISSEURS.pdf",
+          "pages": "p.1"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "2.5.1.4",
+      "titre": "Peinture extérieure type pliolite en sous-face des balcons et loggias",
+      "notice": "« Les sous faces des balcons et des loggias recevront en finition une peinture type pliolite, de teinte au choix de l'architecte » ; parties béton non enduites éventuellement en pliolite (p.10).",
+      "doe": "Lot 07 Façade (DSA) : peinture UNIKALO KAREA OXANE, teinte contretype « Caucase » (fournisseur Nuances Unikalo IDF). Peinture de façade D2 mat, copolymères acryliques et siloxanes en phase aqueuse, NF T 34-722 classe D2, EN 1062-1 E3V2W3A0, NF Environnement, utilisable en sous-face. Le carnet de détails ne la localise que sur les bandeaux et modénatures ; aucune pièce ne vise explicitement les sous-faces des balcons. Lot 16 : aucune fiche peinture extérieure.",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Le seul produit de peinture extérieure documenté est une acrylique-siloxane D2 en phase aqueuse, de niveau au moins équivalent à une pliolite (également D2 de façade) et plus favorable en COV. Son application aux sous-faces des balcons n'est toutefois pas établie par le DOE. À confirmer.",
+      "sources_doe": [
+        {
+          "fichier": "07 - Façade/DSA/DOE - BY BAT - THIAIS Luxembourg.pdf",
+          "pages": "p.1"
+        },
+        {
+          "fichier": "07 - Façade/DSA/1. Documentation technique/6. peinture/1.1. ft karea oxane.pdf",
+          "pages": "p.1-2"
+        },
+        {
+          "fichier": "07 - Façade/DSA/2. Plans/Carnet de details - Indice C.pdf",
+          "pages": "détails 17 à 19",
+          "note": "« 06 - Peinture » sur bandeaux PSE"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "2.5.2.1",
+      "titre": "Peinture des menuiseries bois et huisseries métalliques des logements",
+      "notice": "« Deux couches de peinture blanche aspect lisse. De la peinture biosourcée ou bas carbone de chez UNIKALO ou ALGO ou équivalent selon le choix du Maître d'Ouvrage sera utilisée si nécessité suivant Analyse du Cycle de vie » (pièces sèches) ; deux couches blanche aspect lisse (pièces humides) (p.10).",
+      "doe": "Lot 16 DEMOBAT, fiches d'acceptation « BOISERIES ET PLINTHES » et « PORTES PALIERES+PLIN+FG » : GARNYSATIN (Seigneurie). La FT GARNYSATIN S2P (janvier 2014) décrit une peinture garnissante satinée aux résines alkydes en solution (solvant), d'aspect « satiné poché », brillant d'environ 20 % sous 60°, jusqu'à 300 g/l de COV, A+, système de finition en 2 couches.",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Il s'agit bien de 2 couches de blanc. Mais le produit est une glycéro solvantée classique, sans caractère biosourcé ni bas carbone. Son feuil sec est décrit comme « satiné poché », ce qui ne correspond pas exactement à « aspect lisse ». Le DOE ne fournit pas d'analyse du cycle de vie permettant de savoir si la clause biosourcée devait s'appliquer. Aucun produit UNIKALO ou ALGO en intérieur.",
+      "sources_doe": [
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglets BOISERIES ET PLINTHES, PORTES PALIERES+PLIN+FG"
+        },
+        {
+          "fichier": "16 - Peinture/DEMOBAT/FT_GARNYSATIN_S2P_SEIGNEURIE (8).pdf",
+          "pages": "p.1-2"
+        }
+      ],
+      "sources_web": [
+        {
+          "url": "https://unikalo.com/wp-content/uploads/2021/01/gamme-nae-fdes.pdf",
+          "titre": "UNIKALO - gamme Naé (FDES)",
+          "apport": "La peinture biosourcée de référence d'UNIKALO (Naé) repose sur une résine à 98 % de carbone biosourcé, avec une empreinte d'environ 0,18 à 0,26 kg CO2 eq./m2/couche."
+        },
+        {
+          "url": "https://www.batiproduits.com/amp/fiche/produits/peinture-a-base-d-algues-mate-satinee-ou-velout-p69073878.html",
+          "titre": "Peinture à base d'algues mate, satinée ou veloutée | Algo - Batiproduits",
+          "apport": "La peinture ALGO est biosourcée (huiles végétales et algues), classée A+, en mat, satiné et velours."
+        }
+      ]
+    },
+    {
+      "article": "2.5.2.2",
+      "titre": "Peinture des murs des pièces sèches des logements",
+      "notice": "« Deux couches de peinture blanche aspect lisse. De la peinture biosourcée ou bas carbone de chez UNIKALO ou ALGO ou équivalent ... si nécessité suivant Analyse du Cycle de vie » (p.10).",
+      "doe": "Lot 16, fiche « P SECHES ET P HUMIDES DS LOGTS » : VELOURS GTO (fournisseur indiqué : Sikkens, Corbas ; gamme AkzoNobel Corona Bâtiment). Peinture velours acrylique en phase aqueuse pour murs et plafonds, « travaux élémentaires », NF T 36-005 famille 1 classe 7b2, résistance à l'abrasion humide classe 5 (NF EN 13300), 1 g/l de COV maximum, A+, Ecolabel européen en blanc ; système PRIM GTO + 1 ou 2 couches.",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Il s'agit d'une peinture blanche en phase aqueuse, Ecolabel et A+, mais d'entrée de gamme professionnelle (« travaux élémentaires », abrasion humide classe 5, soit la plus faible). Elle n'est ni biosourcée ni « bas carbone » au sens des gammes UNIKALO Naé ou ALGO citées par la notice. La FT laisse « 1 ou 2 couches » ; les 2 couches promises ne sont pas attestées. La clause biosourcée étant conditionnée à l'ACV, absente du DOE, on ne peut conclure ni à la conformité ni à la non-conformité.",
+      "sources_doe": [
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglet P SECHES ET P HUMIDES DS LOGTS"
+        },
+        {
+          "fichier": "16 - Peinture/DEMOBAT/ft_velours_gto (5).pdf",
+          "pages": "p.1-2"
+        }
+      ],
+      "sources_web": [
+        {
+          "url": "https://www.dod.fr/PartageWeb/Fiche_Tech/1166059_ft_mat_gto_v3_aout_2.pdf",
+          "titre": "Fiche technique MAT GTO V3 août 2019 (AkzoNobel - Corona Bâtiment)",
+          "apport": "La gamme GTO (Mat / Velours / Satin) est une gamme AkzoNobel Corona Bâtiment 'pour travaux élémentaires', c'est-à-dire d'entrée de gamme professionnelle."
+        },
+        {
+          "url": "https://www.dod.fr/PartageWeb/Fiche_Tech/588384_prim_gto_09-2016.pdf",
+          "titre": "Fiche technique PRIM GTO (AkzoNobel - Corona Bâtiment)",
+          "apport": "Système GTO : 1 couche de PRIM GTO puis 1 ou 2 couches de MAT, VELOURS ou SATIN GTO."
+        },
+        {
+          "url": "https://unikalo.com/wp-content/uploads/2021/01/gamme-nae-fdes.pdf",
+          "titre": "UNIKALO - gamme Naé (FDES)",
+          "apport": "La peinture biosourcée de référence d'UNIKALO (Naé) repose sur une résine à 98 % de carbone biosourcé, avec une empreinte d'environ 0,18 à 0,26 kg CO2 eq./m2/couche."
+        },
+        {
+          "url": "https://www.batiproduits.com/amp/fiche/produits/peinture-a-base-d-algues-mate-satinee-ou-velout-p69073878.html",
+          "titre": "Peinture à base d'algues mate, satinée ou veloutée | Algo - Batiproduits",
+          "apport": "La peinture ALGO est biosourcée (huiles végétales et algues), classée A+, en mat, satiné et velours."
+        }
+      ]
+    },
+    {
+      "article": "2.5.2.2",
+      "titre": "Peinture des murs des pièces humides des logements",
+      "notice": "« Sur les murs des pièces humides, il sera appliqué deux couches de peinture blanche aspect lisse selon le choix du Maître d'Ouvrage » (p.10).",
+      "doe": "Même produit que les pièces sèches (fiche « P SECHES ET P HUMIDES DS LOGTS ») : VELOURS GTO, velours acrylique, abrasion humide classe 5, 1 ou 2 couches selon FT.",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Le blanc et l'aspect lisse sont conformes. En revanche, une peinture velours d'abrasion humide classe 5 (la moins lessivable de la norme NF EN 13300) est un choix minimal pour des pièces humides, et la seconde couche n'est pas attestée. Pas de non-conformité démontrée, mais un doute sur le niveau de prestation.",
+      "sources_doe": [
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglet P SECHES ET P HUMIDES DS LOGTS"
+        },
+        {
+          "fichier": "16 - Peinture/DEMOBAT/ft_velours_gto (5).pdf",
+          "pages": "p.1-2"
+        }
+      ],
+      "sources_web": [
+        {
+          "url": "https://www.dod.fr/PartageWeb/Fiche_Tech/1166059_ft_mat_gto_v3_aout_2.pdf",
+          "titre": "Fiche technique MAT GTO V3 août 2019 (AkzoNobel - Corona Bâtiment)",
+          "apport": "La gamme GTO (Mat / Velours / Satin) est une gamme AkzoNobel Corona Bâtiment 'pour travaux élémentaires', c'est-à-dire d'entrée de gamme professionnelle."
+        }
+      ]
+    },
+    {
+      "article": "2.5.2.3",
+      "titre": "Peinture des plafonds des logements",
+      "notice": "Pièces humides et cuisine ouverte : deux couches blanche aspect lisse. Pièces sèches : deux couches blanche aspect lisse, biosourcée ou bas carbone UNIKALO ou ALGO ou équivalent selon choix MO et ACV (p.10).",
+      "doe": "Pas de fiche « plafonds logements » distincte : la fiche « P SECHES ET P HUMIDES DS LOGTS » (VELOURS GTO, « pour murs et plafonds ») vaut a priori aussi pour les plafonds. MAT GTO n'est attribué qu'aux « PLAFONDS PC ».",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Le produit vraisemblablement appliqué (VELOURS GTO) est une peinture blanche en phase aqueuse d'entrée de gamme, non biosourcée. Son affectation aux plafonds n'est pas explicite et le nombre de couches n'est pas attesté. Mêmes réserves que pour les murs.",
+      "sources_doe": [
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglets P SECHES ET P HUMIDES DS LOGTS, PLAFONDS PC"
+        },
+        {
+          "fichier": "16 - Peinture/DEMOBAT/ft_velours_gto (5).pdf",
+          "pages": "p.1"
+        }
+      ],
+      "sources_web": [
+        {
+          "url": "https://unikalo.com/wp-content/uploads/2021/01/gamme-nae-fdes.pdf",
+          "titre": "UNIKALO - gamme Naé (FDES)",
+          "apport": "La peinture biosourcée de référence d'UNIKALO (Naé) repose sur une résine à 98 % de carbone biosourcé, avec une empreinte d'environ 0,18 à 0,26 kg CO2 eq./m2/couche."
+        }
+      ]
+    },
+    {
+      "article": "2.5.2.4",
+      "titre": "Peinture des canalisations et tuyauteries apparentes",
+      "notice": "« Deux couches de peinture blanche aspect lisse selon le choix du Maître d'Ouvrage et études ACV » (p.10).",
+      "doe": "Lot 16, fiche « PC ET TUYAUTERIE » : GARNYSATIN (Seigneurie), glycéro satinée blanche, système de finition en 2 couches selon FT.",
+      "verdict": "bleu",
+      "equivalence": false,
+      "justification": "L'exigence est générique (peinture blanche, deux couches) et le produit documenté y répond. Ici, la notice ne demande pas de peinture biosourcée.",
+      "sources_doe": [
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglet PC ET TUYAUTERIE"
+        },
+        {
+          "fichier": "16 - Peinture/DEMOBAT/FT_GARNYSATIN_S2P_SEIGNEURIE (8).pdf",
+          "pages": "p.1-2"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "3.4.3",
+      "titre": "Peinture de sol anti-poussière des circulations véhicules du parking",
+      "notice": "« Les circulations véhicules recevront une peinture de sol anti-poussière à l'exception des rampes » (p.19).",
+      "doe": "Lot 16, fiche « PARKING » : « PEINTURE SOL EPOXY », fournisseur Seigneurie, sans référence commerciale ni fiche technique jointe.",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Une peinture époxy de sol est en principe plus performante qu'une simple anti-poussière, ce qui irait dans le sens d'une plus-value. Mais le produit n'est pas identifié (pas de référence, pas de FT) et l'étendue d'application (circulations seules ou parking entier) n'est pas précisée. Impossible de conclure sur pièces.",
+      "sources_doe": [
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglet PARKING"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "3.4.3",
+      "titre": "Numérotation et délimitation des places, signalisation du cheminement piéton",
+      "notice": "« Les places seront numérotées et délimitées à la peinture ... La zone de circulation piétonne sera délimitée sur le sol par une signalisation colorée spécifique » (p.19).",
+      "doe": "Aucune fiche de peinture de marquage (type Freitamarquage ou équivalent) dans le lot 16 ni ailleurs dans le DOE.",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Non documenté dans ce DOE (« 1er envoi »).",
+      "sources_doe": [
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "aucun onglet marquage"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "4.1.1",
+      "titre": "Carrelage du hall d'entrée - bât. B et C",
+      "notice": "« Le sol du hall d'entrée sera revêtu de carrelage en grès cérame de chez CERAMICHE PIEMME ou PORCELANOSA ou au moins équivalent » (p.20).",
+      "doe": "FT n°0007 (RECMA, bât. B et C, hall d'entrée, circulations et palier RDC) : grès cérame 60x60 CERAMICHE PIEMME, série CONCRETE, coloris WARM GREY. FT fabricant conforme ISO 13006 / EN 14411 (BIa, absorption <= 0,1 %, résistance au gel), FDES INIES 2023. Classement UPEC non indiqué dans la FT.",
+      "verdict": "bleu",
+      "equivalence": false,
+      "justification": "La marque (CERAMICHE PIEMME) est celle de la notice, en grès cérame. Seule réserve : le classement UPEC (U4P3 attendu pour un hall) n'est pas fourni.",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0007 - 60X60 CERAMICHE PIEMME - BAT B & C.pdf",
+          "pages": "p.1-4"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/2 - LISTE DES FOURNISSEURS/LISTE DES FOURNISSEURS.pdf",
+          "pages": "p.1"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "4.1.1",
+      "titre": "Carrelage du hall d'entrée et des circulations du RDC - bât. A (I3F)",
+      "notice": "CERAMICHE PIEMME ou PORCELANOSA ou au moins équivalent (p.20). Le bât. A relève du descriptif I3F.",
+      "doe": "FT n°0002 (bât. A) : grès cérame 60x60 SALONI série PROYECCION coloris Marfil, mat, UPEC U4 P3 E3 C2.",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "SALONI est un fabricant espagnol de grès cérame reconnu, de milieu-haut de gamme. Le carreau posé (U4P3E3C2) a le classement adapté à un hall. Ce n'est toutefois ni PIEMME ni PORCELANOSA, et le bât. A n'est pas soumis à la notice ATTITUDE. Équivalence plausible mais non démontrée.",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0002 - 60X60 SALONI - BAT A.pdf",
+          "pages": "p.1-5"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/2 - LISTE DES FOURNISSEURS/LISTE DES FOURNISSEURS.pdf",
+          "pages": "p.1"
+        }
+      ],
+      "sources_web": [
+        {
+          "url": "https://www.specifiedby.com/saloni-uk/pav-proyeccion-60x120-marfil",
+          "titre": "PAV. PROYECCION 60X120 MARFIL - Saloni UK (SpecifiedBy)",
+          "apport": "Confirme l'existence de la série Proyección coloris Marfil chez Saloni (grès cérame porcelanico, fini naturel)."
+        }
+      ]
+    },
+    {
+      "article": "4.1.1",
+      "titre": "Tapis encastré du hall",
+      "notice": "« ... et d'un tapis encastré de chez FORBO, ou au moins équivalent » (p.20).",
+      "doe": "FT n°0015 (bât. A, B et C) : tapis essuie-pieds EMCO DIPLOMATE Original 512 R, revêtement reps, coloris Anthracite. Profilés aluminium d'environ 12 mm (cadre 15,5 mm), inserts reps gros denier, écartement 5 mm, zone 2 (intérieur ou extérieur couvert), antidérapant R11 (DIN 51130), certifié TÜV, garantie 4 ans, pose en fosse.",
+      "verdict": "bleu",
+      "equivalence": true,
+      "justification": "La marque diffère de la notice (EMCO au lieu de FORBO). L'EMCO Diplomate 512 R est toutefois un tapis encastré professionnel à profilés aluminium et inserts textiles, de la même famille que les systèmes FORBO Nuway / Coral Connect (profilés alu de 10 mm avec inserts Coral). EMCO est un fabricant allemand spécialiste du tapis d'entrée, dont la gamme Diplomate est la ligne « commerciale » pour trafic normal à fort. Équivalence retenue au niveau du type et des performances.",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0015 - TAPIS EMCO - BAT A, B & C.pdf",
+          "pages": "p.1-4"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/2 - LISTE DES FOURNISSEURS/LISTE DES FOURNISSEURS.pdf",
+          "pages": "p.1"
+        }
+      ],
+      "sources_web": [
+        {
+          "url": "https://www.heinze.de/ausschreibungstext/512-r-mit-ripseinlage/47354857/",
+          "titre": "EMCO 512 R mit Ripseinlage - texte de prescription (Heinze)",
+          "apport": "Tapis d'entrée à profilés aluminium avec inserts reps 100 % PP, hauteur env. 12 mm, isolation phonique en sous-face, écartement 5 mm."
+        },
+        {
+          "url": "https://www.archiexpo.com/pt/prod/emco-bautechnik-gmbh/product-54726-2441331.html",
+          "titre": "Tapete de entrada da linha comercial 512 R - EMCO (ArchiExpo)",
+          "apport": "Gamme 'commerciale' (Diplomate) EMCO déclinée en hauteurs 12, 17 et 22 mm."
+        },
+        {
+          "url": "https://forbo.blob.core.windows.net/forbodocuments/2252956/Brochure-Nuway2023_BD_finale03082023.pdf",
+          "titre": "Brochure Forbo Nuway 2023",
+          "apport": "Les tapis encastrés FORBO de référence (Nuway / Coral) sont des systèmes à profilés aluminium avec inserts textiles ; même famille de produit que l'EMCO Diplomate 512 R."
+        },
+        {
+          "url": "https://www.forbo.com/flooring/en-uk/commercial-products/coral-nuway-entrance-matting-and-flooring/nuway-internal/nuway-connect-plus/b9ehwb",
+          "titre": "Forbo Nuway Connect Plus",
+          "apport": "Profilés aluminium de 10 mm avec inserts Coral : niveau de prestation comparable au 512 R (profilés alu 12 mm + reps)."
+        }
+      ]
+    },
+    {
+      "article": "4.1.2",
+      "titre": "Enduit décoratif / peinture des parois du hall",
+      "notice": "« Les murs seront revêtus pour partie d'un enduit décoratif et/ou d'une peinture suivant plans de décoration » (p.20).",
+      "doe": "Lot 16, fiche « MURS PC » : SATIN GTO (AkzoNobel Corona Bâtiment), satinée acrylique en phase aqueuse, abrasion humide classe 3, A+. Aucun enduit décoratif documenté ; pas de plans de décoration dans le DOE.",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "La peinture des parois est documentée. L'enduit décoratif prévu « pour partie » ne l'est pas, et les plans de décoration manquent pour savoir où il devait aller.",
+      "sources_doe": [
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglet MURS PC"
+        },
+        {
+          "fichier": "16 - Peinture/DEMOBAT/ft_satin_gto (4).pdf",
+          "pages": "p.1-2"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "4.1.3",
+      "titre": "Plafond du hall en plaques de plâtre peint (2 couches)",
+      "notice": "« Il sera prévu un plafond constitué de plaques de plâtre revêtu de 2 couches de peinture » (p.20).",
+      "doe": "Lot 11 ATB Isolation : rubriques « Plafond 1 BA 13 » et « Plafond perforé » localisées « Halls et circulations » (SINIAT Prégymétal BA13 ; dossier « Plafond 1 BA 13 sur Halls » contenant la fiche Gyptone Activ'Air Quattro 44). Lot 16, fiche « PLAFONDS PC » : MAT GTO (mate acrylique, abrasion humide classe 4, A+).",
+      "verdict": "bleu",
+      "equivalence": false,
+      "justification": "Le plafond est en plaques de plâtre (BA13 et/ou plaque acoustique perforée Gyptone, qui est aussi une plaque de plâtre), peint avec une peinture mate blanche. Cela répond à l'exigence. Le nombre de couches n'est pas attesté, mais la FT prévoit 1 ou 2 couches.",
+      "sources_doe": [
+        {
+          "fichier": "11 - Cloisons Doublage Faux plafond/ATB ISOLATION/DOE Lot n°11 ICD -THIAIS  Art'MONY -ATB ISOLATION_unzipped/DOE Lot n°11 ICD -THIAIS  Art'MONY -ATB ISOLATION/3.Fiches produits/3.1 Liste des matériaux/Liste des matériels et matériaux.pdf",
+          "pages": "p.1"
+        },
+        {
+          "fichier": "11 - Cloisons Doublage Faux plafond/ATB ISOLATION/DOE Lot n°11 ICD -THIAIS  Art'MONY -ATB ISOLATION_unzipped/DOE Lot n°11 ICD -THIAIS  Art'MONY -ATB ISOLATION/3.Fiches produits/3.2 Fiches Produits/09 -Plafond 1 BA 13/FT plafond 1 BA 13.pdf",
+          "pages": "p.1"
+        },
+        {
+          "fichier": "11 - Cloisons Doublage Faux plafond/ATB ISOLATION/DOE Lot n°11 ICD -THIAIS  Art'MONY -ATB ISOLATION_unzipped/DOE Lot n°11 ICD -THIAIS  Art'MONY -ATB ISOLATION/3.Fiches produits/3.2 Fiches Produits/09 -Plafond 1 BA 13 sur Halls/ficheproduit_Gyptone_ActivAir_Quattro_44 (2).pdf",
+          "pages": "p.1-2"
+        },
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglet PLAFONDS PC"
+        },
+        {
+          "fichier": "16 - Peinture/DEMOBAT/ft_mat_gto (1).pdf",
+          "pages": "p.1-2"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "4.2.1",
+      "titre": "Carrelage des circulations du RDC (identique au hall) - bât. B et C",
+      "notice": "« Au rez-de-chaussée, le sol sera carrelé de façon identique au hall d'entrée (le calepinage pourra être différent), avec plinthes assorties » (p.21).",
+      "doe": "FT n°0007 : CERAMICHE PIEMME CONCRETE Warm Grey 60x60, localisation « Hall d'entrée, circulations et palier au RDC » (bât. B et C). Plinthes carrelées assorties : pas de fiche distincte.",
+      "verdict": "bleu",
+      "equivalence": false,
+      "justification": "Le même carrelage que le hall est prévu dans les circulations et le palier du RDC, conformément à la notice. Les plinthes assorties ne sont pas documentées séparément, ce qui est mineur.",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0007 - 60X60 CERAMICHE PIEMME - BAT B & C.pdf",
+          "pages": "p.1"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "4.2.1",
+      "titre": "Moquette des paliers d'étage - bât. B et C (accession)",
+      "notice": "« Le sol des paliers d'étages sera revêtu d'une moquette de la marque BALSAN ou équivalent » (p.21).",
+      "doe": "La FMA A1 (Accession, 24/06/2025, circulations et paliers B/C) proposait BALSAN « Les Best Design II » (dessin GRAPH) : velours Saxony imprimé, 1 200 g/m2 de velours, 8,5 mm, U3SP3E1C0, classe 33 LC4, Cfl-s1, deltaLw 29 dB. La fiche technique finale « FT moquette Accession » porte sur BALSAN PATINA, collection VISION OF ELEGANCE : velours coupé, technologie CYP Colortec+, 100 % polyamide teint masse régénéré ECONYL, 1 250 g/m2 de velours, 2 670 g/m2 au total, 10 mm, velours de 6,3 mm, U3SP3E1C0, classe 33 LC4, Bfl-s1, deltaLw 30 dB, alphaw 0,25, EPD, 4,55 kg CO2 eq./m2.",
+      "verdict": "bleu",
+      "equivalence": false,
+      "justification": "La marque BALSAN est celle de la notice. Le produit final (PATINA, Vision of Elegance) est issu de la collection haut de gamme de Balsan, destinée à l'hôtellerie de luxe. Il est même supérieur à la proposition initiale Best Design II : feu Bfl-s1 au lieu de Cfl-s1, 10 mm au lieu de 8,5, deltaLw 30 dB au lieu de 29, fibre recyclée ECONYL. La notice ne fixant que la marque, l'exigence est remplie au-delà du nécessaire. Noter l'écart entre la FMA (Best Design II) et la FT finale (Patina).",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/Parquet - sol souple/3. Fiches produits/15_SO_N FMA_A1_Moquette/HAR_EXE_TZ_SS_TN_FMA_0A1_ind_A_Moquette.pdf",
+          "pages": "p.1-2"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/FT moquette Accession.pdf",
+          "pages": "p.1-2"
+        }
+      ],
+      "sources_web": [
+        {
+          "url": "https://www.batiproduits.com/amp/fiche/produits/sol-en-velours-haute-densite-unie-ou-a-7-motifs-p408380514.html",
+          "titre": "Sol en velours haute densité CYP-Colortec | Vision of Elegance (Balsan) - Batiproduits",
+          "apport": "Collection Vision of Elegance : moquette en lés velours coupé haute densité, polyamide teint masse, 1 250 g/m2 de velours, 10 mm, 4 m de large ; gamme positionnée haut de gamme."
+        },
+        {
+          "url": "https://www.journaldespalaces.com/communique-62061-vision-of-elegance-de-balsan-des-moquettes-d-exception-pour-l-hotellerie-de-luxe-.html",
+          "titre": "Vision of Elegance de Balsan, des moquettes d'exception pour l'hôtellerie de luxe - Journal des Palaces",
+          "apport": "Positionne la collection (dont le dessin Patina) sur le segment hôtellerie de luxe."
+        }
+      ]
+    },
+    {
+      "article": "4.2.1",
+      "titre": "Moquette des paliers d'étage - bât. A (I3F)",
+      "notice": "« Moquette de la marque BALSAN ou équivalent » (p.21). Le bât. A relève du descriptif du bailleur I3F.",
+      "doe": "La FMA I1 (bât. A, 01/08/2025) proposait comme pour B/C BALSAN « Les Best Design II » (GRAPH, 1 200 g/m2, 8,5 mm, U3SP3E1C0, classe 33). La fiche technique finale « FT moquette I3F » porte sur BALSAN PILOTE² : dalle plombante amovible 50 x 50 à velours bouclé, 100 % polyamide teint masse régénéré ECONYL, 580 g/m2 de velours (350 g/m2 utiles), 4 200 g/m2 au total, 5,8 mm, velours de 2,6 mm, U3P3E1C0, classe 33 LC1, Bfl-s1, deltaLw 26 dB, alphaw 0,15.",
+      "verdict": "bleu",
+      "equivalence": false,
+      "justification": "La marque BALSAN de la notice est respectée et le classement d'usage (U3P3, classe 33) convient à des circulations. Le produit reste nettement plus modeste que celui de l'accession : dalle bouclée de 5,8 mm et 580 g/m2 de velours, contre un velours coupé de 10 mm et 1 250 g/m2 ; deltaLw 26 dB contre 30 ; alphaw 0,15 contre 0,25. Il est aussi en retrait par rapport à la FMA I1. Il y a donc une différence réelle de standing entre le bât. A et les bât. B et C, conforme à la logique bailleur / accession.",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/Parquet - sol souple/3. Fiches produits/15_SO_N FMA_I1_Moquette/HAR_EXE_TZ_SS_TN_FMA_0I1_ind_A_Moquette.pdf",
+          "pages": "p.1-2"
+        },
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/FT moquette I3F.pdf",
+          "pages": "p.1-2"
+        }
+      ],
+      "sources_web": [
+        {
+          "url": "https://floordealer.ru/upload/iblock/d2f/pilote2.pdf",
+          "titre": "Fiche technique Balsan PILOTE 2 (dalles 50 x 50)",
+          "apport": "Pilote² : dalle plombante 50 x 50 à velours bouclé Econyl, U3P3E1C0, 5,8 mm, 44 coloris ; produit tertiaire/collectif standard."
+        }
+      ]
+    },
+    {
+      "article": "4.2.1",
+      "titre": "Plinthes des paliers d'étage (sapin ou médium 10 x 100 mm peintes)",
+      "notice": "« ... avec plinthes peintes en sapin ou médium de 10 x 100 mm à bord droit » (p.21).",
+      "doe": "Lot 09B, FMA A31 (Accession) et I31 (I3F) : Guimier, « Plinthes en médium (MDF) de 100 x 10 mm bord droit finition à peindre ». Le champ « proposition » mentionne aussi « 70x10mm ». La FT jointe est celle d'une plinthe bois massif rabotée, angles vifs, section 10 x 95 surlignée. Peinture : GARNYSATIN (fiche « PORTES PALIERES+PLIN+FG »).",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Le bois massif (sapin du Nord) et le MDF sont tous deux admis par la notice, de même que le bord droit et la finition peinte. En revanche, les documents se contredisent sur la section (100 x 10, 70 x 10, 10 x 95) et la FT retient 95 mm de haut au lieu de 100 mm. L'écart est minime mais reste à lever.",
+      "sources_doe": [
+        {
+          "fichier": "09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A31_Plinthes palières/HAR_EXE_TZ_MIN_TN_FMA_A31_ind_A_Plinthes palières.pdf",
+          "pages": "p.1-2"
+        },
+        {
+          "fichier": "09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/02- I3F/09A_SO_N FMA_I31_Plinthes palières/HAR_EXE_TZ_MIN_TN_FMA_0I31_ind_A_Plinthes palières.pdf",
+          "pages": "p.1-2"
+        },
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglet PORTES PALIERES+PLIN+FG"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "4.2.2",
+      "titre": "Peinture des murs des circulations et paliers",
+      "notice": "« Sur les murs une finition peinture ou revêtement mural sera prévue suivant plans de décoration » (p.21).",
+      "doe": "Lot 16, fiche « MURS PC » : SATIN GTO (AkzoNobel Corona Bâtiment), satinée acrylique, abrasion humide classe 3, 1 g/l de COV maximum, A+.",
+      "verdict": "bleu",
+      "equivalence": false,
+      "justification": "Une finition peinture est documentée pour les murs des parties communes, ce qui répond à l'exigence générique. Les plans de décoration ne sont pas joints.",
+      "sources_doe": [
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglet MURS PC"
+        },
+        {
+          "fichier": "16 - Peinture/DEMOBAT/ft_satin_gto (4).pdf",
+          "pages": "p.1-2"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "4.2.3",
+      "titre": "Faux plafond acoustique GYPTONE des circulations",
+      "notice": "« Si nécessaire ... il sera prévu partiellement un faux plafond acoustique de modèle GYPTONE, ou équivalent, recouvert d'une peinture blanche mat » (p.21).",
+      "doe": "Lot 11 ATB Isolation : « Plafond perforé - Halls et circulations » : GYPTONE ACTIV'AIR QUATTRO 44 (Placo), plaque de plâtre perforée à perforations carrées, 4 bords amincis, 1200 x 2400 x 12,5 mm, alphaw 0,75 à 0,80 selon le plénum (PV acoustique), A2-s1,d0, A+, Activ'Air (capte jusqu'à 60 % du formaldéhyde). Plans R+00 à R+05 : légende « Faux-plafond acoustique ». Peinture : MAT GTO blanc (fiche « PLAFONDS PC »).",
+      "verdict": "bleu",
+      "equivalence": false,
+      "justification": "Le modèle GYPTONE de la notice est posé (Quattro 44, version Activ'Air), avec PV acoustique et une peinture blanche mate. Conforme.",
+      "sources_doe": [
+        {
+          "fichier": "11 - Cloisons Doublage Faux plafond/ATB ISOLATION/DOE Lot n°11 ICD -THIAIS  Art'MONY -ATB ISOLATION_unzipped/DOE Lot n°11 ICD -THIAIS  Art'MONY -ATB ISOLATION/3.Fiches produits/3.1 Liste des matériaux/Liste des matériels et matériaux.pdf",
+          "pages": "p.1"
+        },
+        {
+          "fichier": "11 - Cloisons Doublage Faux plafond/ATB ISOLATION/DOE Lot n°11 ICD -THIAIS  Art'MONY -ATB ISOLATION_unzipped/DOE Lot n°11 ICD -THIAIS  Art'MONY -ATB ISOLATION/3.Fiches produits/3.2 Fiches Produits/12 -Plafond perforée/ficheproduit_Gyptone_ActivAir_Quattro_44 (2).pdf",
+          "pages": "p.1-2"
+        },
+        {
+          "fichier": "11 - Cloisons Doublage Faux plafond/ATB ISOLATION/DOE Lot n°11 ICD -THIAIS  Art'MONY -ATB ISOLATION_unzipped/DOE Lot n°11 ICD -THIAIS  Art'MONY -ATB ISOLATION/3.Fiches produits/3.2 Fiches Produits/09 -Plafond 1 BA 13 sur Halls/PV acoustique GypTone Quattro 44_5156.pdf",
+          "pages": "p.1"
+        },
+        {
+          "fichier": "11 - Cloisons Doublage Faux plafond/ATB ISOLATION/DOE Lot n°11 ICD -THIAIS  Art'MONY -ATB ISOLATION_unzipped/DOE Lot n°11 ICD -THIAIS  Art'MONY -ATB ISOLATION/2.Plans, Coupes, Schémas, Carnet de détails, Notes de Calculs/R+00_A.pdf",
+          "pages": "légende"
+        },
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglet PLAFONDS PC"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "4.3.1",
+      "titre": "Sols des circulations piétonnes du sous-sol (brut ou peinture anti-poussière)",
+      "notice": "« Les sols des circulations seront bruts de béton ou recouverts d'une peinture anti-poussière » (p.21).",
+      "doe": "Lot 16, fiche « SOL » : FREITA SOL (Seigneurie), peinture de sol antipoussière, sans localisation précisée ni FT jointe.",
+      "verdict": "bleu",
+      "equivalence": false,
+      "justification": "La notice admet même le béton brut. L'existence d'une peinture de sol antipoussière (FREITASOL) dans le DOE peinture suffit à remplir cette exigence alternative. Réserve : FT absente et localisation non précisée.",
+      "sources_doe": [
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglet SOL"
+        }
+      ],
+      "sources_web": [
+        {
+          "url": "https://www.batiproduits.com/fiche/produits/peinture-antipoussiere-pour-sols-interieurs-ou-e-p69117713.html",
+          "titre": "Peinture antipoussière pour sols intérieurs ou extérieurs | Freitasol Aqua Color - Batiproduits",
+          "apport": "FREITASOL (famille Freitag / Seigneurie, PPG) est une peinture de sol antipoussière acrylique en phase aqueuse."
+        }
+      ]
+    },
+    {
+      "article": "4.3.2",
+      "titre": "Murs des circulations du sous-sol (peinture vinylique ou enduit projeté Baggar)",
+      "notice": "« Les murs des circulations seront en béton ou parpaings bruts revêtus d'une couche de peinture vinylique ou d'un enduit projeté de modèle Baggar, ou équivalent » (p.21).",
+      "doe": "Aucune fiche ne vise explicitement le sous-sol. Fiches parties communes : « MURS PC » (SATIN GTO), « PLAFONDS PC » (MAT GTO). Aucun enduit Baggar documenté.",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Non documenté pour cette localisation. Une peinture acrylique GTO pourrait tenir lieu de « peinture vinylique », mais rien ne relie une fiche aux circulations du sous-sol.",
+      "sources_doe": [
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglets MURS PC, PLAFONDS PC"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "4.4.1 / 4.4.4",
+      "titre": "Peinture de sol des paliers d'escalier, marches et contremarches",
+      "notice": "« Les paliers d'escaliers seront revêtus de peinture de sol » ; « Les marches et contremarches seront revêtues d'une peinture de sol » (p.22).",
+      "doe": "Lot 16 : fiche « SOL » FREITA SOL (Seigneurie), sans localisation ni FT. La fiche « ESCALIERS » porte sur VELOURS GTO, une peinture murale.",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Un produit de peinture de sol (FREITASOL, antipoussière) est bien prévu par le peintre, mais sans localisation ni fiche technique : rien n'établit qu'il couvre les paliers, marches et contremarches. Conformité probable, non démontrée.",
+      "sources_doe": [
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglets SOL, ESCALIERS"
+        }
+      ],
+      "sources_web": [
+        {
+          "url": "https://www.batiproduits.com/fiche/produits/peinture-antipoussiere-pour-sols-interieurs-ou-e-p69117713.html",
+          "titre": "Peinture antipoussière pour sols intérieurs ou extérieurs | Freitasol Aqua Color - Batiproduits",
+          "apport": "FREITASOL (famille Freitag / Seigneurie, PPG) est une peinture de sol antipoussière acrylique en phase aqueuse."
+        }
+      ]
+    },
+    {
+      "article": "4.4.2 / 4.4.3 / 4.4.4",
+      "titre": "Enduit projeté Baggar des cages d'escalier (murs, plafonds des paliers, sous-face des paillasses) et noyau peint",
+      "notice": "« Les murs seront revêtus d'un enduit projeté de modèle Baggar, ou équivalent. Le noyau sera peint » ; plafonds des paliers et sous-face de paillasse en enduit projeté Baggar (p.22).",
+      "doe": "Aucun enduit projeté (Baggar ou équivalent) dans le DOE. Lot 16, fiche « ESCALIERS » : VELOURS GTO (peinture velours acrylique, abrasion humide classe 5).",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "L'enduit projeté décoratif Baggar n'est pas documenté. Pour les escaliers, le DOE ne montre qu'une peinture velours, qui peut correspondre au noyau peint ; si elle a été appliquée à la place du Baggar sur murs et plafonds, il s'agirait d'une prestation inférieure (une peinture d'entrée de gamme au lieu d'un enduit projeté masquant et résistant aux chocs). À vérifier sur place ; l'enduit peut relever d'un autre lot non transmis.",
+      "sources_doe": [
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglet ESCALIERS"
+        },
+        {
+          "fichier": "16 - Peinture/DEMOBAT/ft_velours_gto (5).pdf",
+          "pages": "p.1"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "4.5.1",
+      "titre": "Local vélos / poussettes : peinture vinylique des murs",
+      "notice": "« Une couche de peinture vinylique sera appliquée sur les murs du local » (p.22).",
+      "doe": "Aucune fiche ne vise le local vélos. Peintures parties communes disponibles : SATIN GTO (murs PC), MAT GTO (plafonds PC).",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Non documenté pour cette localisation.",
+      "sources_doe": [
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglets MURS PC, PLAFONDS PC"
+        }
+      ],
+      "sources_web": []
+    },
+    {
+      "article": "4.5.1",
+      "titre": "Local vélos / poussettes : peinture de sol avec remontée en plinthe sur 10 cm",
+      "notice": "« Au sol, il sera appliqué une peinture de sol avec remontée en plinthes sur 10 cm » (p.22).",
+      "doe": "Fiche « SOL » : FREITA SOL (Seigneurie), sans localisation ni FT ; la remontée en plinthe n'est mentionnée nulle part.",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Le produit est vraisemblablement le même, mais le DOE n'établit ni l'application dans ce local ni la remontée de 10 cm.",
+      "sources_doe": [
+        {
+          "fichier": "16 - Peinture/DEMOBAT/DOE THIAIS LUXEMBOURG B.xls",
+          "pages": "onglet SOL"
+        }
+      ],
+      "sources_web": [
+        {
+          "url": "https://www.batiproduits.com/fiche/produits/peinture-antipoussiere-pour-sols-interieurs-ou-e-p69117713.html",
+          "titre": "Peinture antipoussière pour sols intérieurs ou extérieurs | Freitasol Aqua Color - Batiproduits",
+          "apport": "FREITASOL (famille Freitag / Seigneurie, PPG) est une peinture de sol antipoussière acrylique en phase aqueuse."
+        }
+      ]
+    },
+    {
+      "article": "5.1",
+      "titre": "Sol de la cabine d'ascenseur (carrelage identique au palier du RDC)",
+      "notice": "« Le sol sera revêtu de carrelage identique à celui du palier du RDC » (p.23).",
+      "doe": "La FT n°0007 (Piemme) et la FT n°0002 (Saloni, bât. A) ne mentionnent pas la cabine. Le DOE ascenseur ORONA (déclarations de conformité, DOE XF13344/45/46JT) donne les dimensions de cabine (1100 x 1400 mm) mais rien sur le revêtement de sol.",
+      "verdict": "orange",
+      "equivalence": false,
+      "justification": "Non documenté dans ce DOE.",
+      "sources_doe": [
+        {
+          "fichier": "10-14-15 - Parquets Sols souples Carrelage/RECMA/3 - FICHES DES MATERIELS ET MATERIAUX/FT N°0007 - 60X60 CERAMICHE PIEMME - BAT B & C.pdf",
+          "pages": "p.1"
+        },
+        {
+          "fichier": "17 - Ascenseur/ORONA/_DOE_unzipped/DOE - XF13344JT.pdf",
+          "pages": "p.1-10",
+          "note": "caractéristiques cabine sans revêtement de sol"
+        }
+      ],
+      "sources_web": []
+    }
+  ],
+  "observations": "1) Deux standards selon les bâtiments. Les FMA et FT distinguent explicitement « Accession » (bât. B et C) et « I3F » (bât. A, logement social). Le bât. A reçoit des produits différents de la notice ATTITUDE : sol PVC Gerflor Tradiflor 2S3 au lieu du stratifié, carrelage et faïence SALONI, hall SALONI, moquette BALSAN PILOTE² en dalles bouclées. Ces produits répondent au descriptif du bailleur (cité dans la FMA I2) et non à la notice ATTITUDE. Pour les paliers d'étage, l'écart de standing entre A (Pilote² : 5,8 mm, 580 g/m2, deltaLw 26 dB) et B/C (Patina Vision of Elegance : 10 mm, 1 250 g/m2, deltaLw 30 dB, Bfl-s1) est net. 2) Contradictions entre FMA et FT finales sur les moquettes : les FMA A1 et I1 proposaient BALSAN Best Design II, les FT finales montrent Patina (accession) et Pilote² (I3F). Plinthes : FMA « MDF » contre FT « bois massif », sections incohérentes (70x100, 70x10, 10x70, 10x95, 19x100). Stratifié : la FMA dit « Trendline Pro », la FT « Trendline 8 » ; caractéristiques identiques. 3) Pièces manquantes de ce 1er envoi : crédence verre du meuble vasque, crédence faïence des cuisines B et C, revêtement de sol des cuisines (localisation absente des FT), enduit décoratif du hall, enduit projeté Baggar des escaliers, marquage du parking, sol de la cabine d'ascenseur, FT des peintures FREITASOL et époxy, certificat UPEC du stratifié, classement UPEC du carrelage de hall PIEMME. L'onglet peinture s'intitule « DOE THIAIS LUXEMBOURG B.xls » : il est possible qu'il ne concerne que le bât. B. 4) Peintures : le peintre (DEMOBAT) a retenu la gamme AkzoNobel Corona Bâtiment GTO (entrée de gamme « travaux élémentaires ») et une glycéro solvantée Seigneurie Garnysatin pour les boiseries. Aucune peinture biosourcée ou bas carbone (UNIKALO Naé, ALGO) n'est utilisée en intérieur. La seule peinture UNIKALO du DOE est la peinture de façade Karea Oxane du lot 07. 5) Éléments hors notice notables : sol LVT TARKETT Delicate Inspi iD 55 Oak Sugar dans le logement C4 103, probablement un TMA acquéreur. Formats de carrelage supplémentaires KERABEN 60x60, 20x120 NATURWOOD, ARTE DECO 15x61 IGUANE et faïence 31x61 en « base marché ». Sous-couche acoustique PRB Planiphone Confort sous carrelage. Mortiers-colles et joints CEGECOL / MAPEI."
+}

@@ -1,0 +1,278 @@
+# Lot d'analyse C_menuiserie_interieure
+
+[← README](../README.md)
+
+**Périmètre :** Menuiserie intérieure : huisseries, portes intérieures et béquilles, portes palières (bloc-porte, seuil, béquilles, serrure, cylindre), placards, moulures palières, portes des circulations communes, des gaines techniques et des sas/locaux du sous-sol (notice 2.3.1-2.3.6, 4.2.6, 4.3.4) ; DOE lot 09B (+ lot 12 pour les portes métalliques du sous-sol)
+
+🔴 Inférieure : 0 · 🟠 Doute : 8 · 🔵 Conforme : 12 · 🟢 Supérieure : 1
+
+## Observations de l'analyste (pièces manquantes, anomalies, hors notice)
+
+1) Aucune fiche produit du lot 09B (accession) n'a son cadre « Choix retenu MO/MOE » rempli ni visé. Le DOE contient donc des propositions et non des validations formelles. Pour trois postes (A4 béquilles palières, A9 portes intérieures, A18 béquilles des parties communes), une proposition conforme et une variante sont jointes avec leurs deux fiches. 2) Le dossier contient aussi des fiches « 02 - I3F » (logements sociaux, hors notice acquéreurs) et « 03 - PC » (parties communes). L'analyse ne retient que les fiches « 01 - Accession » et « 03 - PC ». 3) Les fiches citent une version de la notice différente (« Il sera prévu un placard dans l'entrée et dans une chambre sur deux ») de la notice V1.2 de décembre 2024 (« placard dans l'entrée et dans la salle de bains pour lave-linge suivant plan de vente »). Écart documentaire à signaler. 4) Hors périmètre demandé mais notable : 2.3.7, escalier bois des duplex (plans d'exécution « Escalier bois », gamme AUTHENTIQUE) livré « Finition : brut de ponçage », alors que la notice prévoit une finition lasurée. Il faut vérifier si la lasure est réalisée par le lot peinture. Le plan signale aussi une incohérence (« vide au milieu de l'escalier à sécuriser au lot placo »). 5) Éléments hors notice documentés : microviseur Bricard série 800 (A6), seuil suisse bois Guimier 70x20 (A3), trappes de visite Breheret TVB35 / coupe-feu EI1 30 (A2, plans de trappes bât. A/B/C ; aucune trappe ni huisserie dans le lot 11), plinthes palières Guimier médium 100x10 (A31, notice 4.2.1, hors périmètre), boîtes aux lettres (A33). 6) Pièces manquantes du 1er envoi : PV feu et fiches des portes de recoupement / circulations communes et des portes de sas, nomenclature des portes intérieures par pièce (fonctions condamnation / clé), fiche de la tablette chapelière, et toute pièce sur d'éventuelles portes de logement donnant sur l'extérieur (DEYA Securipac).
+
+## Prestations
+
+| ID | Article | Prestation | Verdict | Lot |
+|---|---|---|---|---|
+| P052 | 2.3.1 | [Huisseries des portes intérieures](../par_chapitre/2_Locaux_privatifs_et_leurs_équipements.md) | 🔵 Conforme | C_menuiserie_interieure |
+| P055 | 2.3.2 | [Portes intérieures (vantaux de distribution)](../par_chapitre/2_Locaux_privatifs_et_leurs_équipements.md) | 🟠 Doute | C_menuiserie_interieure |
+| P053 | 2.3.2 | [Béquilles des portes intérieures](../par_chapitre/2_Locaux_privatifs_et_leurs_équipements.md) | 🔵 Conforme | C_menuiserie_interieure |
+| P054 | 2.3.2 | [Condamnation WC/SdB, clé pour les chambres, bec de cane pour les autres pièces](../par_chapitre/2_Locaux_privatifs_et_leurs_équipements.md) | 🟠 Doute | C_menuiserie_interieure |
+| P056 | 2.3.4 | [Bloc-porte palière (porte d'entrée intérieure)](../par_chapitre/2_Locaux_privatifs_et_leurs_équipements.md) | 🔵 Conforme | C_menuiserie_interieure |
+| P061 | 2.3.4 | [Seuil à la suisse des portes palières](../par_chapitre/2_Locaux_privatifs_et_leurs_équipements.md) | 🔵 Conforme | C_menuiserie_interieure |
+| P059 | 2.3.4 | [Portes d'entrée donnant sur l'extérieur](../par_chapitre/2_Locaux_privatifs_et_leurs_équipements.md) | 🟠 Doute | C_menuiserie_interieure |
+| P057 | 2.3.4 | [Béquilles des portes palières (sur plaque, entraxe 195 mm)](../par_chapitre/2_Locaux_privatifs_et_leurs_équipements.md) | 🟠 Doute | C_menuiserie_interieure |
+| P060 | 2.3.4 | [Serrure 3 points des portes palières](../par_chapitre/2_Locaux_privatifs_et_leurs_équipements.md) | 🔵 Conforme | C_menuiserie_interieure |
+| P058 | 2.3.4 | [Cylindre des portes palières](../par_chapitre/2_Locaux_privatifs_et_leurs_équipements.md) | 🔵 Conforme | C_menuiserie_interieure |
+| P062 | 2.3.5 | [Façade coulissante de placard](../par_chapitre/2_Locaux_privatifs_et_leurs_équipements.md) | 🔵 Conforme | C_menuiserie_interieure |
+| P063 | 2.3.5 | [Porte de placard ouvrant à la française (largeur < 1,00 m)](../par_chapitre/2_Locaux_privatifs_et_leurs_équipements.md) | 🔵 Conforme | C_menuiserie_interieure |
+| P064 | 2.3.5 | [Tablette chapelière (placard d'entrée)](../par_chapitre/2_Locaux_privatifs_et_leurs_équipements.md) | 🟠 Doute | C_menuiserie_interieure |
+| P065 | 2.3.5 | [Tringle de penderie (placard d'entrée)](../par_chapitre/2_Locaux_privatifs_et_leurs_équipements.md) | 🔵 Conforme | C_menuiserie_interieure |
+| P066 | 2.3.6 | [Moulures d'habillage des huisseries palières (côté circulation)](../par_chapitre/2_Locaux_privatifs_et_leurs_équipements.md) | 🔵 Conforme | C_menuiserie_interieure |
+| P165 | 4.2.6 | [Portes des circulations communes (âme pleine, coupe-feu)](../par_chapitre/4_Parties_communes_intérieures.md) | 🟠 Doute | C_menuiserie_interieure |
+| P164 | 4.2.6 | [Béquilles des portes des circulations communes](../par_chapitre/4_Parties_communes_intérieures.md) | 🟢 Supérieure | C_menuiserie_interieure |
+| P166 | 4.2.6 | [Portes des gaines techniques palières](../par_chapitre/4_Parties_communes_intérieures.md) | 🔵 Conforme | C_menuiserie_interieure |
+| P173 | 4.3.4 | [Portes d'accès des sas et des locaux techniques du sous-sol (âme pleine, coupe-feu / pare-flamme)](../par_chapitre/4_Parties_communes_intérieures.md) | 🟠 Doute | C_menuiserie_interieure |
+| P171 | 4.3.4 | [Ferme-porte hydraulique (portes des sas et locaux techniques)](../par_chapitre/4_Parties_communes_intérieures.md) | 🔵 Conforme | C_menuiserie_interieure |
+| P172 | 4.3.4 | [Oculus des portes d'accès des sas](../par_chapitre/4_Parties_communes_intérieures.md) | 🟠 Doute | C_menuiserie_interieure |
+
+### P052 · Art. 2.3.1 · Huisseries des portes intérieures
+
+**Verdict : 🔵 Conforme** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « Les huisseries seront en bois ou métalliques de chez DEYA ou HUET ou MALERBA ou équivalent. » (p.9)
+- **DOE :** Fiche produit A10 : huisserie métallique DEYA, référence C-RA (profil pour cloison 50 à 100 mm, porte à recouvrement simple vantail, cotes françaises 630 à 930 mm) ; case « fiche technique » cochée dans la proposition conforme. Le CCTP (10.2.1) demande une huisserie métallique « dans la gamme fabricant portes (HUET-MALERBA-DEYA) ».
+- **Analyse :** DEYA est l'un des trois fabricants nommés par la notice et l'huisserie métallique est explicitement admise. La fiche est cochée « proposition conforme » sans variante. Seule réserve formelle : le cadre « choix retenu MO/MOE » n'est pas rempli (cas de toutes les fiches du lot).
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A10_Huisserie métalique/HAR_EXE_TZ_MIN_TN_FMA_A10_ind_A_Huisserie métalique.pdf` (p.1-2)
+
+### P055 · Art. 2.3.2 · Portes intérieures (vantaux de distribution)
+
+**Verdict : 🟠 Doute** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « Les portes intérieures seront à recouvrement 3 côtés et alvéolaires à parement isoplane, finition laquée usine de couleur blanche, de chez HUET, ou équivalent. » (p.9)
+- **DOE :** Fiche A9 : proposition conforme HUET « Isoplane prépeinte à recouvrement » (bloc-porte CS02 âme alvéolaire, vantail 40 mm, 10 kg/m², finition « prépeint ou laqué selon nuancier ») ET proposition variante XI DOOR (Svedex) « SUPERLAK » (âme alvéolaire, à recouvrement, ép. env. 39 mm, laque EPC extra-blanc appliquée en usine). Aucune case cochée, ni dans la proposition conforme ni dans la variante ; « choix retenu MO/MOE » vide. La fiche Superlak porte des annotations rouges (âme alvéolaire et chants à recouvrement entourés, autres options barrées), signe que cette variante a été détaillée.
+- **Analyse :** La proposition conforme HUET porte la mention « prépeinte ». Une porte prépeinte n'a reçu en usine qu'une couche d'apprêt, à peindre sur site : ce n'est pas la « finition laquée usine blanche » de la notice, que le CCTP reprend d'ailleurs (« Finition ACCESSION : laqué d'usine de couleur blanche », cité fiche A11). La variante Svedex Superlak remplit techniquement les critères : recouvrement, âme alvéolaire, isoplane, laque usine blanche EPC très résistante aux rayures. Le DOE ne dit pas laquelle des deux portes a été posée. Si c'est la HUET prépeinte peinte sur site, la prestation serait inférieure à la notice ; si c'est la Superlak, l'équivalence est vraisemblable.
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A9_Portes de distribution/HAR_EXE_TZ_MIN_TN_FMA_A9_ind_A_Portes de distribution.pdf` (p.1-9) — HUET CS02 p.2-3 ; Svedex Superlak p.4-9
+- **Sources web :**
+  - [Porte isoplane : caractéristiques, prix, avantages - La Maison Saint-Gobain](https://www.lamaisonsaintgobain.fr/guides-travaux/amenagement-interieur/porte-isoplane-caracteristiques-prix-avantages-et-inconvenient) — Une porte isoplane standard sort d'usine prépeinte (couche d'apprêt) et doit recevoir une finition peinture.
+  - [Bloc-porte prépeint - Castorama](https://www.castorama.fr/bloc-porte-prepeint/cat_id_0008923.cat) — Définition : « prépeint » = couche d'apprêt appliquée en usine, la finition reste à faire sur site (différent d'un laquage usine fini).
+  - [Porte intérieure Arne & Bodil ABD420 laquée blanc (Svedex) - Gamma.be](https://www.gamma.be/fr/assortiment/porte-interieure-arne-bodil-abd420-laquee-blanc/p/C31343641) — Superlak (Svedex) : laque d'usine résistante aux rayures, taches et traces de doigts, sans solvant ; portes livrées prêtes à poser.
+  - [Deal opens the door to new standards in doorset finishes - Specification Online (2016)](https://mail.specificationonline.co.uk/articles/2016-03-22/deal-opens-the-door-to-new-standards-in-doorset-finishes) — Svedex présenté comme fabricant européen de blocs-portes intérieurs préfinis pour le logement collectif ; garantie 10 ans annoncée en 2016 (à reconfirmer).
+
+### P053 · Art. 2.3.2 · Béquilles des portes intérieures
+
+**Verdict : 🔵 Conforme** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « ensemble de béquilles, finition Alu mat ou Noir ou Blanc au choix du maître d'ouvrage, sur rosace ronde, modèle SHAPE 1320 de chez FIMET, ou équivalent » (p.9-10)
+- **DOE :** Fiche A11 : proposition conforme FIMET SHAPE 1320 (cases « fiche technique » et « échantillon » cochées). Catalogue FIMET joint : Shape 1320/232, béquille aluminium sur rosette ronde clip 50 mm, versions PZ / BB (clé) / WC (condamnation), finitions dont F16 chromé satiné, FNO noir mat, FBO blanc mat. Une variante BRICARD POP ou DISCO (inox sur rosace) figure aussi, mais aucune case n'est cochée pour elle.
+- **Analyse :** Le modèle exact de la notice (FIMET Shape 1320 sur rosace ronde) est proposé et coché, documentation et échantillon à l'appui. Les finitions prévues par la notice (alu mat, noir, blanc) existent au catalogue. Les fiches Bricard Pop/Disco sont jointes en variante non cochée : à confirmer à la réception, mais le DOE désigne FIMET comme proposition conforme.
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A11_Béquille porte distribution/HAR_EXE_TZ_MIN_TN_FMA_A11_ind_A_Béquille porte distribution.pdf` (p.1-3) — p.4-7 : fiches variante Bricard Pop/Disco
+
+### P054 · Art. 2.3.2 · Condamnation WC/SdB, clé pour les chambres, bec de cane pour les autres pièces
+
+**Verdict : 🟠 Doute** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « avec condamnation à verrou pour les WC, les salles de bains et/ou les salles d'eau, et avec clé pour les chambres, les autres pièces seront équipées de becs de cane simples » (p.10)
+- **DOE :** La fiche HUET CS02 indique les serrures disponibles : bec de cane, bec de cane à condamnation, pêne dormant ½ tour, sûreté 1 point (axe 50 mm). Le catalogue FIMET Shape 1320 montre les rosaces PZ / BB / WC. Aucun document (nomenclature, plan, carnet de quincaillerie) n'indique quelle fonction est posée dans quelle pièce.
+- **Analyse :** Les produits retenus offrent bien les trois fonctions demandées : condamnation, clé et bec de cane simple. En revanche, le DOE ne contient aucune nomenclature des portes par pièce qui prouverait que les WC et SdB ont reçu une condamnation et les chambres une clé. Point non documenté dans ce 1er envoi.
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A9_Portes de distribution/HAR_EXE_TZ_MIN_TN_FMA_A9_ind_A_Portes de distribution.pdf` (p.2) — serrures CS02
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A11_Béquille porte distribution/HAR_EXE_TZ_MIN_TN_FMA_A11_ind_A_Béquille porte distribution.pdf` (p.3) — rosaces PZ/BB/WC
+
+### P056 · Art. 2.3.4 · Bloc-porte palière (porte d'entrée intérieure)
+
+**Verdict : 🔵 Conforme** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « bloc porte retardateur d'effraction de chez BLOCFER modèle BLOCFORT ou HUET modèle AXIOME ou de chez MALERBA ou équivalent (certifiée A2P1* BP1), dimensions suivant plan, avec seuil à la suisse. Parement extérieur lisse ou matricé, finition peinture » (p.10)
+- **DOE :** Fiche A1 : proposition conforme MALERBA réf. MBE 031 = « 1V EI30 - ISOBLINDE 39 BP1 - huisserie métal » (fiche technique cochée). Certificat A2P 4.27, effraction A2P BP1, PV feu EFR-14-000528 EI2 30, acoustique Rw (C;Ctr) = 40 (-1;-3) dB / RA = 39 dB avec seuil, Ud = 1,8 W/m².K, vantail 40 mm (âme avec 2 tôles, cadre bois), huisserie acier 15/10, 3 ou 4 paumelles anti-dégondage 130, serrure multipoint A2P* compatible BRICARD 8161, finitions fibre brute / prépeinte / stratifié.
+- **Analyse :** MALERBA est nommé par la notice. Le bloc-porte Isoblinde 39 est certifié A2P BP1 (certificat CNPP 4.27), ce qui, avec la serrure A2P* (fiche A20), répond à l'exigence « A2P1* BP1 ». Il apporte en plus EI30 et environ 39-40 dB d'affaiblissement acoustique, des performances confirmées par les fiches Batiproduits.
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A1_Blocs Portes Palières intérieures/HAR_EXE_TZ_MIN_TN_FMA_A1_ind_A_Blocs Portes Palières intérieures.pdf` (p.1-2)
+- **Sources web :**
+  - [Bloc-porte palier bois antieffraction pour logement collectif neuf | 1V ISOBLINDE 39 BP1 (Malerba) - Batiproduits](https://www.batiproduits.com/amp/fiche/produits/bloc-porte-palier-bois-antieffraction-1v-isoblin-p351172855.html) — Confirme : EI30, certification A2P BP1, Rw 40 dB, paumelles anti-dégondage, serrure multipoint A2P, seuil suisse acier.
+  - [CNPP - certificat A2P blocs-portes n° 4.27 (Malerba)](https://www.cnpp.com/private/cnpp/ftp/PDF/4.27.pdf) — Référence CNPP du certificat A2P 4.27 cité sur la fiche Malerba du DOE (ISOBLINDE 39, classe BP1).
+
+### P061 · Art. 2.3.4 · Seuil à la suisse des portes palières
+
+**Verdict : 🔵 Conforme** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « avec seuil à la suisse » (p.10)
+- **DOE :** Fiche A3 : proposition conforme Guimier « seuil suisse bois 70x20 » (le CCTP 10.1.1 prévoit un seuil suisse bois 50x20). La fiche Malerba A1 indique que le seuil suisse bois remplace le seuil acier avec le même RA = 39 dB.
+- **Analyse :** L'exigence générique de la notice (seuil à la suisse) est remplie. Le seuil documenté est plus large que celui du CCTP (70 mm contre 50 mm) et compatible avec les performances acoustiques du bloc-porte certifié. Aucune fiche technique Guimier n'est jointe : seule la fiche de proposition existe.
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A3_Seuil suisse/HAR_EXE_TZ_MIN_TN_FMA_A3_ind_A_Seuil suisse.pdf` (p.1)
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A1_Blocs Portes Palières intérieures/HAR_EXE_TZ_MIN_TN_FMA_A1_ind_A_Blocs Portes Palières intérieures.pdf` (p.2) — variante seuil suisse bois RA=39 dB
+
+### P059 · Art. 2.3.4 · Portes d'entrée donnant sur l'extérieur
+
+**Verdict : 🟠 Doute** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « Les portes d'entrée donnant sur l'extérieur seront du type bloc porte retardateur d'effraction modèle SECURIPAC PACDAMAS de chez DEYA ou de chez MALERBA ou équivalent (certifiée A2P BP1) à parement tôle finition peinture avec seuil métallique. » (p.10)
+- **DOE :** Aucune fiche, aucun plan ni aucune référence DEYA Securipac / Pacdamas ou bloc-porte palier extérieur dans le lot 09B (accession, I3F ou parties communes) ni ailleurs dans le DOE.
+- **Analyse :** Le DOE ne documente aucune porte de logement ouvrant sur l'extérieur (coursive, terrasse d'accès). Soit la configuration n'existe pas sur l'opération (prestation sans objet), soit la pièce manque à ce 1er envoi. À faire confirmer par le maître d'ouvrage.
+
+### P057 · Art. 2.3.4 · Béquilles des portes palières (sur plaque, entraxe 195 mm)
+
+**Verdict : 🟠 Doute** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « ensemble de béquilles sur plaque de 195 mm d'entraxe modèle MUZE de chez VACHETTE, ou équivalent » (p.10)
+- **DOE :** Fiche A4 (datée du 05/03/2026) : proposition conforme VACHETTE « béquille sur plaque (195 mm) MUZE » et proposition variante BRICARD « QUEBEC réf. 779 et 7779 ». AUCUNE case cochée, ni pour l'une ni pour l'autre ; « choix retenu » vide. Les deux fiches sont jointes. Muze : béquille en zamak, monobloc béquille + plaque, vis invisibles, entraxe 195 ou 165 mm, EN 1906 : catégorie 2, endurance 6, corrosion 3, garantie 10 ans. Québec 779 / 7779 : aluminium anodisé argent ou champagne, plaque moulée 38 x 220 mm, entraxe 195 mm, béquille aileron côté palier (7779), pas de classement EN 1906 ni de garantie indiqués.
+- **Analyse :** Le DOE ne permet pas de savoir quelle béquille a été posée. La date tardive de la fiche (mars 2026) et la présence de la fiche Bricard laissent penser qu'une substitution par la Québec a été envisagée. La Québec respecte le format exigé (plaque, entraxe 195 mm, pose sans vis apparente), mais sa fiche ne donne ni classement EN 1906, ni garantie, ni prix public. La Muze, elle, affiche EN 1906 2/6/3 et 10 ans de garantie, pour environ 39 EUR TTC en chromé velours. L'équivalence n'est donc pas démontrée.
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A4_Béquille portes palières/HAR_EXE_TZ_MIN_TN_FMA_0A4_ind_A_Béquille portes palières.pdf` (p.1-4) — p.2 fiche Muze ; p.3-4 fiche Bricard Québec
+- **Sources web :**
+  - [Ensembles Muze grandes plaques VACHETTE - Bricozor](https://www.bricozor.com/ensembles-muze-grandes-plaques-vachette.html) — Ensemble Muze grande plaque entraxe 195 mm, chromé velours : à partir de 38,70 EUR TTC (ordre de prix public).
+  - [Béquilles sur rosace ou plaque en aluminium | Lignes Québec / Montréal (Bricard) - Batiproduits](https://www.batiproduits.com/fiche/produits/bequilles-sur-rosace-ou-plaque-en-aluminium-lig-p69033708.html) — Ligne Québec Bricard : aluminium anodisé (argent, champagne, bronze) ou époxy ; pas de classement EN 1906 ni de garantie indiqués ; pas de prix public.
+
+### P060 · Art. 2.3.4 · Serrure 3 points des portes palières
+
+**Verdict : 🔵 Conforme** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « d'une serrure 3 points A2P1* série 8161 [...] de chez BRICARD, ou équivalent » (p.10)
+- **DOE :** Fiche A20 : proposition conforme BRICARD série 8161. Fiche Bricard jointe : serrure multipoints à mortaiser (gamme standard, A2P*, A2P**, PMR), versions 3 coffres / 3 ou 5 pênes, têtière 2040 mm, conforme NF quincaillerie, pêne dormant anti-sciage, apte aux blocs-portes EI 60, compatible cylindres A2P* Dual XP 2, Serial XP, Serial et Octal. La fiche Malerba A1 cite BRICARD 8161 parmi les serrures A2P* compatibles avec le bloc certifié.
+- **Analyse :** Marque et série identiques à la notice. La gamme 8161 inclut la version A2P* demandée et le CCTP impose « certifiée A2P* BP1 ». La version exacte (A2P*, 3 points) n'est pas cochée sur la fiche, mais elle est cohérente avec le certificat BP1 du bloc-porte, qui l'exige.
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A20_Serrure porte palières/HAR_EXE_TZ_MIN_TN_FMA_0A20_ind_A_Serrure porte palières.pdf` (p.1-6)
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A1_Blocs Portes Palières intérieures/HAR_EXE_TZ_MIN_TN_FMA_A1_ind_A_Blocs Portes Palières intérieures.pdf` (p.2)
+
+### P058 · Art. 2.3.4 · Cylindre des portes palières
+
+**Verdict : 🔵 Conforme (équivalent démontré)** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « [serrure] avec cylindre OCTAL de chez BRICARD, ou équivalent » (p.10)
+- **DOE :** Fiche A8 : la proposition conforme indique « BRICARD - Dual XP S2 A2P* pour serrure 8161 », mais la fiche technique jointe est celle du cylindre BRICARD OCTAL (profil européen, 6 goupilles, anti-bumping BKP breveté, inserts anti-perçage, clé protégée à vie, 240 000 variures, testé >100 000 cycles, 10 ans de garantie).
+- **Analyse :** Contradiction interne : le formulaire désigne un Dual XP S2 A2P*, alors que la documentation jointe est celle de l'Octal de la notice. Les deux hypothèses restent conformes. Octal = modèle de la notice. Dual XP S2 A2P* = même fabricant, même niveau de certification A2P* (1 étoile), même garantie de 10 ans et >100 000 cycles ; la gamme Dual XP se situe au même niveau ou au-dessus (elle existe jusqu'en A2P***). Équivalence considérée comme démontrée, sous réserve que la carte de propriété remise aux acquéreurs précise le modèle.
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A8_cylindre/HAR_EXE_TZ_MIN_TN_FMA_0A8_ind_A_cylindre.pdf` (p.1-3)
+- **Sources web :**
+  - [Fiche technique Cylindre de sécurité OCTAL - Bricard](https://bricard.com/professionnels/wp-content/uploads/sites/17/2023/01/Fiche-technique-Cylindre-de-securite-OCTAL.pdf) — Octal : cylindre de sécurité 6 goupilles, anti-bumping BKP, testé >100 000 cycles, 10 ans de garantie (même contenu que la fiche jointe au DOE).
+  - [Cylindre de sécurité à clé à reproduction protégée | Dual XP (Bricard) - Batiproduits](https://www.batiproduits.com/fiche/produits/cylindre-de-securite-a-cle-a-reproduction-pro-p69033773.html) — Dual XP : cylindre haute sécurité certifiable A2P* et A2P***, résistance crochetage/perçage/casse, >100 000 cycles, carte de propriété.
+  - [Cylindre à double entrée DUAL XP S2 A2P* 30X30 - BRICARD - Bricomarché](https://www.bricomarche.com/p/cylindre-a-double-entree-dual-xp-s2-a2p-30x30-bricard-15515070/3188741092649) — Existence commerciale d'une version Dual XP S2 certifiée A2P* (1 étoile), même niveau que l'Octal A2P* de la notice (page non lisible en détail, HTTP 403).
+
+### P062 · Art. 2.3.5 · Façade coulissante de placard
+
+**Verdict : 🔵 Conforme** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « Un placard par logement sera équipé d'une façade coulissante de 10 mm d'épaisseur, modèle GPAPHIC [GRAPHIC], de chez SIFISA, ou au moins équivalent, dimensions selon plan (coloris au choix dans la gamme proposée par le maître d'ouvrage) » (p.10)
+- **DOE :** Fiche A13 : proposition conforme SIFISA GRAPHIC (fiche technique et échantillon cochés). Fiche Sifisa jointe : façade coulissante, panneau 10 mm, profils-poignées en acier galvanisé laqué (largeur 20 mm), guide haut à 3 roulettes, guide bas à roulement à billes anti-déraillement, rails acier galvanisé laqué, baie jusqu'à 2790 x 5500 mm.
+- **Analyse :** Le modèle et le fabricant de la notice sont retenus (la coquille « GPAPHIC » de la notice correspond bien à la gamme GRAPHIC de Sifisa), avec l'épaisseur de panneau exigée de 10 mm. Le coloris effectivement posé n'est pas précisé.
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A13_Portes placard battantes-coulissantes/HAR_EXE_TZ_MIN_TN_FMA_A13_ind_A_Portes placard battantes-coulissantes.pdf` (p.1-2)
+
+### P063 · Art. 2.3.5 · Porte de placard ouvrant à la française (largeur < 1,00 m)
+
+**Verdict : 🔵 Conforme** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « Dans le cas de largeur inférieure à 1.00 m, celui-ci sera équipé d'une porte ouvrant à la française. » (p.10)
+- **DOE :** Fiche A13 : CCTP 12.2.1 « façades battantes en panneaux de mélaminé décor blanc pour toutes largeurs ≤ 1,00 m, épaisseur 10 mm » ; fiche Sifisa GRAPHIC « pivotant réversible » jointe : panneau 10 mm, profils acier galvanisé laqué, rails haut et bas aluminium laqué, pivots, largeur de vantail 300 à 850 mm.
+- **Analyse :** Pour les placards de moins de 1 m, le DOE documente des portes pivotantes battantes SIFISA GRAPHIC de 10 mm. Elles répondent à l'exigence d'ouverture « à la française » (vantaux battants). La liste des placards concernés n'est pas fournie.
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A13_Portes placard battantes-coulissantes/HAR_EXE_TZ_MIN_TN_FMA_A13_ind_A_Portes placard battantes-coulissantes.pdf` (p.1, p.3)
+
+### P064 · Art. 2.3.5 · Tablette chapelière (placard d'entrée)
+
+**Verdict : 🟠 Doute** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « Entrée suivant plan de vente : aménagement tablette chapelière et tringle de penderie. » (p.10)
+- **DOE :** Fiche A15 : le CCTP 12.2.3 prévoit une « tablette chapelière en mélaminé blanc sur toute la longueur du placard ». La proposition conforme ne documente que la quincaillerie de penderie LEGALLAIS (tubes et pitons). Aucune fiche produit pour la tablette (marque, épaisseur, matériau).
+- **Analyse :** La tablette est prévue au CCTP mais aucune fiche ne la documente dans le DOE. Ni sa nature (mélaminé blanc ?) ni son épaisseur ne peuvent être vérifiées. Non documenté.
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A15_Équipement intérieur des placards/HAR_EXE_TZ_MIN_TN_FMA_0I15_ind_A_Équipement intérieur des placards.pdf` (p.1)
+
+### P065 · Art. 2.3.5 · Tringle de penderie (placard d'entrée)
+
+**Verdict : 🔵 Conforme** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « aménagement tablette chapelière et tringle de penderie » (p.10)
+- **DOE :** Fiche A15 : LEGALLAIS tubes de penderie ronds en acier chromé (Ø 16 à 30 mm, épaisseur 0,7 mm, longueur 3 m) et pitons sur platine en laiton chromé (fiche technique et échantillon cochés).
+- **Analyse :** La tringle de penderie demandée par la notice est documentée : tube acier chromé et supports en laiton chromé, produits standard de quincaillerie professionnelle. Le diamètre retenu n'est pas précisé.
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A15_Équipement intérieur des placards/HAR_EXE_TZ_MIN_TN_FMA_0I15_ind_A_Équipement intérieur des placards.pdf` (p.1-3)
+
+### P066 · Art. 2.3.6 · Moulures d'habillage des huisseries palières (côté circulation)
+
+**Verdict : 🔵 Conforme** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « Les huisseries palières côté circulation commune seront encadrées par une moulure en bois peint (couleur au choix du maître d'ouvrage). » (p.10)
+- **DOE :** Fiche A30 (localisation : huisseries palières et portes d'accès aux cages d'escalier) : Guimier « champlat 10 x 50 - bord droit ». Catalogue Guimier « Moulures bâtiment pin maritime » joint, avec la référence n° 811 encadrée : champlat arêtes vives en pin prépeint blanc, 10 x 50 mm, fabriqué en France. Le CCTP 13.4 demandait un champlat en médium à peindre de 8 x 50 mm.
+- **Analyse :** La moulure posée est en bois massif (pin maritime) prépeint, à peindre : c'est exactement la « moulure en bois peint » de la notice. Elle est même meilleure que le CCTP (médium 8 x 50) par sa matière et son épaisseur de 10 mm.
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A30_Champlats/HAR_EXE_TZ_MIN_TN_FMA_0A30_ind_A_Champlats.pdf` (p.1-2)
+
+### P165 · Art. 4.2.6 · Portes des circulations communes (âme pleine, coupe-feu)
+
+**Verdict : 🟠 Doute** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « Les portes des circulations communes seront à âme pleine de finition peinte et de degré coupe-feu conforme à la réglementation. » (p.21)
+- **DOE :** Aucune fiche produit ni PV de résistance au feu pour les portes de recoupement / accès aux cages d'escalier dans le lot 09B. Ces portes apparaissent seulement de façon indirecte : localisation des champlats A30 (« portes d'accès aux cages d'escaliers »), du ferme-porte A22 et de la poignée A18 (« escalier, sous-sol et locaux communs »), et plan de signalétique (étiquettes « ESCALIER », « ACCÈS SOUS-SOL »).
+- **Analyse :** Le DOE ne contient ni la fiche des vantaux (âme pleine, finition), ni le PV de classement feu (EI30 ou E30 / pare-flamme) des portes des circulations communes. La conformité au degré coupe-feu réglementaire ne peut pas être vérifiée. Pièce manquante du 1er envoi.
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A30_Champlats/HAR_EXE_TZ_MIN_TN_FMA_0A30_ind_A_Champlats.pdf` (p.1) — localisation
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/2. Plans, coupes, Schémas, Carnet de détails et note de calcul/2.1. Signalétique/Plan d'execution signalétique.pdf` (p.1-3) — étiquettes de portes
+
+### P164 · Art. 4.2.6 · Béquilles des portes des circulations communes
+
+**Verdict : 🟢 Supérieure** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « Elles seront équipées de béquilles sur plaque, modèle MUZE de chez VACHETTE, ou équivalent. » (p.21)
+- **DOE :** Fiche A18 (escalier, sous-sol et locaux communs) : proposition conforme « Vachette MUZE ou équivalent » et variante BRICARD POP ou DISCO. La seule fiche technique jointe est la BRICARD « poignée sur plaque Disco », que l'on retrouve aussi seule dans le dossier « 03 - PC » : inox 304 (1.4301), plaque 228 x 43 mm, entraxe 195 mm, carré 7 mm, platine de fixation acier, vis traversantes, ressort de rappel, EN 1906 : 3 7 - 0 0 3 0 B (catégorie 3, endurance 7 = 200 000 cycles, corrosion grade 3 - 96 h).
+- **Analyse :** Le produit documenté (et le seul joint dans le dossier parties communes) est la Bricard Disco sur plaque. Sa classification EN 1906 dépasse celle de la Muze, d'après la fiche Vachette du DOE (A4) : catégorie d'utilisation 3 (usage intensif) contre 2, endurance 7 (200 000 cycles) contre 6 (100 000 cycles). La Disco est en inox 304 massif, la Muze en zamak. Supériorité technique manifeste pour des portes communes très sollicitées. Réserve : le « choix retenu » n'est pas formalisé sur la fiche.
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A18_Poigné porte escalier sous sol et locaux communs/HAR_EXE_TZ_MIN_TN_FMA_0A18_ind_A_Poigné porte escalier sous sol et locaux communs.pdf` (p.1-3)
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/03- PC/09A_MENUISERIE INTERIEUR_A18_Poigné porte escalier sous sol et locaux communs 2.pdf` (p.1-2)
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A4_Béquille portes palières/HAR_EXE_TZ_MIN_TN_FMA_0A4_ind_A_Béquille portes palières.pdf` (p.2) — classement EN 1906 de la Muze
+- **Sources web :**
+  - [Fiche technique Poignée sur rosace DISCO - Bricard](https://bricard.com/professionnels/wp-content/uploads/sites/17/2023/01/Fiche-technique-Poignee-sur-rosace-DISCO.pdf) — Gamme Disco Bricard : inox 304, sans vis apparente (ligne inox professionnelle).
+  - [Ensembles Muze grandes plaques VACHETTE - Bricozor](https://www.bricozor.com/ensembles-muze-grandes-plaques-vachette.html) — Ensemble Muze grande plaque entraxe 195 mm, chromé velours : à partir de 38,70 EUR TTC (ordre de prix public).
+
+### P166 · Art. 4.2.6 · Portes des gaines techniques palières
+
+**Verdict : 🔵 Conforme (équivalent démontré)** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « Les portes des gaines techniques seront réalisées en panneaux de particules avec paumelles invisibles, finition par peinture. » (p.21)
+- **DOE :** Fiche A7 (dossier PC) : BREHERET façade de gaine FGC22 (fiche technique cochée), ouvrant en médium (MDF) 22 mm, cadre épicéa / pin / bois lamellé-collé 58 x 50, articulation par charnières invisibles, fermeture par batteuses (carré 10 x 6 GDF), certifiée PEFC, sans résistance au feu ; isolation acoustique Rw 29 / 37 / 41 dB en option. Plans de fabrication BREHERET C25_01752 (bât. B et C) et C25_01754 (bât. A) : façades FGC22 NF repérées SG / EDF / FT / CHAUFF / EF, mention « NON FEU ».
+- **Analyse :** Les paumelles invisibles demandées sont présentes (charnières invisibles). L'ouvrant est en médium (MDF) 22 mm au lieu d'un panneau de particules : panneau dérivé du bois au moins équivalent (plus dense et homogène, meilleur support de peinture). Équivalence admise. La finition peinture relève du lot peinture. Remarque hors notice : les plans indiquent des façades « NON FEU » ; leur conformité réglementaire relève du contrôleur technique.
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/03- PC/09A_SO_N FMA_A7_Façades de gaines techniques palières/09A_SO_N FMA_A7_Façades de gaines techniques palières.pdf` (p.1-3)
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/2. Plans, coupes, Schémas, Carnet de détails et note de calcul/2.6 Gaine palière/Plan N° C25_01752 - BAT BC.PDF` (p.1)
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/2. Plans, coupes, Schémas, Carnet de détails et note de calcul/2.6 Gaine palière/Plan N° C25_01754 - BAT A.PDF` (p.1)
+
+### P173 · Art. 4.3.4 · Portes d'accès des sas et des locaux techniques du sous-sol (âme pleine, coupe-feu / pare-flamme)
+
+**Verdict : 🟠 Doute** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « Les portes d'accès des sas et des locaux techniques seront à âme pleine, peintes, de degré coupe-feu ou pare flamme conforme à la législation, avec ferme porte hydraulique. » (p.22)
+- **DOE :** Lot 09B : aucune fiche de bloc-porte coupe-feu pour les sas ou locaux techniques du sous-sol. Lot 12 (CTS) : plans de portes métalliques « accès sous-sol », « accès parking bât. B », « accès local bât. C », « ESC SS1 » : tôle pliée ép. 2 mm + renfort, cadre en tôle pleine, dormant RP197, thermolaquage RAL 7016, serrure européenne, béquille KLT 001, ferme-porte en applique, barre antipanique, gâche électrique. Aucun degré EI / E ni PV feu n'est mentionné.
+- **Analyse :** Les portes métalliques du lot 12 sont pleines et laquées : la finition répond à « âme pleine, peinte ». Mais aucun document ne justifie leur degré coupe-feu ou pare-flamme : ni PV, ni marquage EI30 / E30 sur les plans. Les portes de sas proprement dites (entre escalier et parking) ne sont pas identifiées. Conformité non démontrée dans ce 1er envoi.
+- **Pièces DOE :**
+  - `12 - Métallerie - Serrurerie/CTS/112 - THIAIS - DOE_unzipped/4 - Portes métallique/PORTE accés parking BAT B - IND1.pdf` (p.1-2)
+  - `12 - Métallerie - Serrurerie/CTS/112 - THIAIS - DOE_unzipped/4 - Portes métallique/PORTE BAT C - accés LOCAL - IND1.pdf` (p.1-2)
+  - `12 - Métallerie - Serrurerie/CTS/112 - THIAIS - DOE_unzipped/4 - Portes métallique/PORTE BAT C - accés sous sol - IND2.pdf` (p.1-2)
+  - `12 - Métallerie - Serrurerie/CTS/Porte escalier accès sous-sol/PORTE ESC SS1 - IND1.pdf` (p.1-2)
+
+### P171 · Art. 4.3.4 · Ferme-porte hydraulique (portes des sas et locaux techniques)
+
+**Verdict : 🔵 Conforme (équivalent démontré)** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « avec ferme porte hydraulique » (p.22)
+- **DOE :** Fiche A22 (escalier, sous-sol et locaux communs) : BRICARD série 620, réf. 6201157 (CCTP : VACHETTE ou GEZE). Fiche Bricard (dossier PC) : ferme-porte hydraulique force 3 à bras à glissière anti-vandalisme, conforme NF EN 1154 et marquage CE (certificat 1121-CPD-AD5040, classement 4 8 3 1 1 3), apte aux blocs-portes coupe-feu, vitesse et à-coup final réglables, ouverture jusqu'à 180°. Les plans du lot 12 prévoient aussi un « ferme porte en applique » sur chaque porte métallique.
+- **Analyse :** L'exigence générique « ferme-porte hydraulique » est remplie par un appareil hydraulique certifié EN 1154, apte aux portes coupe-feu. La marque diffère du CCTP (Bricard au lieu de Vachette ou Geze) mais appartient au même segment professionnel (groupe Allegion) : équivalence acceptable.
+- **Pièces DOE :**
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/01- Accession/09A_SO_N FMA_A22_Ferme porte/HAR_EXE_TZ_MIN_TN_FMA_0A22_ind_A_Ferme porte.pdf` (p.1)
+  - `09B - Menuiserie intérieure/MENUISERIE INTERIEURE/3. Fiches produits/03- PC/09A_MENUISERIE INTERIEUR_A22_Ferme porte 1.pdf` (p.1-2)
+  - `12 - Métallerie - Serrurerie/CTS/112 - THIAIS - DOE_unzipped/4 - Portes métallique/PORTE BAT C - accés sous sol - IND2.pdf` (p.1)
+
+### P172 · Art. 4.3.4 · Oculus des portes d'accès des sas
+
+**Verdict : 🟠 Doute** · lot d'analyse : [C_menuiserie_interieure](../par_lot/C_menuiserie_interieure.md)
+
+- **Notice :** « Les portes d'accès des sas sont munies d'oculus. » (p.22)
+- **DOE :** Aucun oculus n'apparaît sur les plans de portes métalliques du lot 12 (« cadre en tôle pleine ») ni dans le lot 09B. Aucune porte de sas identifiée comme telle.
+- **Analyse :** Le DOE ne montre aucune porte de sas équipée d'un oculus. Les portes métalliques documentées sont à remplissage tôle pleine, mais ce ne sont peut-être pas les portes de sas visées. Non documenté : à vérifier sur site ou dans les pièces complémentaires.
+- **Pièces DOE :**
+  - `12 - Métallerie - Serrurerie/CTS/112 - THIAIS - DOE_unzipped/4 - Portes métallique/PORTE accés parking BAT B - IND1.pdf` (p.1)
+  - `12 - Métallerie - Serrurerie/CTS/112 - THIAIS - DOE_unzipped/4 - Portes métallique/PORTE BAT C - accés sous sol - IND2.pdf` (p.1)
+  - `12 - Métallerie - Serrurerie/CTS/Porte escalier accès sous-sol/PORTE ESC SS1 - IND1.pdf` (p.1)

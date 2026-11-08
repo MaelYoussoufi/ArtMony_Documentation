@@ -1,0 +1,635 @@
+{
+ "agent": "E_plomberie_sanitaires",
+ "perimetre": "Plomberie et appareils sanitaires des logements en accession (bâtiments B et C) : kitchenette et évier, distribution EF/ECS, évacuations, attentes machines, receveurs, parois, baignoire, meubles vasques, miroirs, WC, bâti-support, robinetterie, robinets de puisage, alimentation en eau, chutes. Hors chauffage, PAC et VMC.",
+ "items": [
+  {
+   "article": "2.6.1.1",
+   "titre": "Kitchenette des studios (évier inox 1 bac, plaque 2 feux électriques, réfrigérateur sous plan, meuble mélaminé blanc)",
+   "notice": "Pour les studios ou selon plan spécifique : kitchenette avec évier inox 1 bac et égouttoir, plaque de cuisson 2 foyers électriques et réfrigérateur sous plan, le tout intégré dans un meuble en mélaminé blanc (p.12).",
+   "doe": "Aucune fiche de kitchenette pour les bâtiments B et C (accession). Les seules fiches de cuisine (meuble sous-évier NEOVA Prémi's, mitigeur évier Paini Ultima C3) se trouvent dans le dossier TPSA « Logements sociaux » et la liste TPSA les rattache au bâtiment A.",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Non documenté pour l'accession. Les fiches NEOVA concernent le bâtiment A, vendu à un bailleur et hors champ de la notice. Le DOE ne permet pas non plus de savoir quels lots de B et C sont des studios. Pièce à réclamer, sauf si la kitchenette relève d'un autre lot (cuisiniste).",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Liste des matériels et matériaux.pdf",
+     "pages": "p.1",
+     "note": "Meuble évier NEOVA et robinet évier Paini Ultima C3 : bâtiment A uniquement"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Logements sociaux/Plomberie/NEOVA_PREMI_S_BAS-SOUS-EVIERS.pdf",
+     "pages": "p.1",
+     "note": "dossier Logements sociaux"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.1.1",
+   "titre": "Bloc évier sur demande et mitigeur d'évier PAINI VENTUS",
+   "notice": "Bloc évier inox sur meuble mélaminé blanc, posé uniquement si l'acquéreur le demande formellement. Robinetterie : mitigeur monotrou NF à bec orientable, modèle VENTUS de PAINI ou équivalent, avec cartouche à limiteur de débit (p.12).",
+   "doe": "Aucune fiche PAINI VENTUS ni d'évier dans le dossier Accession. Le seul mitigeur d'évier documenté est le Paini Ultima C3 / ULCR573PILOT, en dossier « Logements sociaux » et rattaché au bâtiment A par la liste TPSA.",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Prestation optionnelle, non documentée pour B et C. Le DOE ne dit pas non plus si des acquéreurs l'ont demandée.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Liste des matériels et matériaux.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Logements sociaux/Plomberie/fiche-ULCR573PILOT (1).pdf",
+     "pages": "p.1",
+     "note": "bâtiment A"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.2.1",
+   "titre": "Distribution d'eau froide (colonnes PVC pression, PER sous fourreau en dalle)",
+   "notice": "Alimentation générale par colonne montante en PVC pression, en gaine palière ou gaine logement. Distribution pour partie en PER sous fourreaux en dalle, pour partie en cuivre ou PER apparent (p.12).",
+   "doe": "Synoptique EF : réseau eau froide en PVC-P avec calorifuge 13 mm, colonnes PVC-P 53,6/63, 34/40 et 27,2/32 dans les bâtiments A, B et C. Détail des gaines : colonne EF PVC-P, nourrice EF puis départs en PER Ø13x16 en dalle. Note de calcul EF : tube PVCP.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Les matériaux posés correspondent exactement à la notice : PVC pression en colonne, PER en dalle depuis une nourrice. La part en cuivre ou PER apparent n'est pas détaillée, mais la notice la laisse au choix.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/02_NDC/02_Eau froide/ACT_EXE_TZ_PLB_GEN_SCH_022_D-SYNOPTIQUE EF.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/01_Plans/03_Carnet de gaines/ACT_EXE_B_PLB_TN_PLN_600_B-Détails des gaines techniques EF_CHAUFFAGE_ECS.pdf",
+     "pages": "p.3 et p.6",
+     "note": "colonnes EF PVC-P bât. B, nourrice EF sous évier, PER Ø13x16"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/02_NDC/02_Eau froide/ACT_EXE_TZ_PLB_GEN_NDC_002_D-NDC EF.pdf",
+     "pages": "p.1-3"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.2.3",
+   "titre": "Distribution d'eau chaude dans le logement (PER sous fourreau)",
+   "notice": "Production d'ECS collective. Distribution pour partie en PER sous fourreaux en dalle, pour partie en cuivre ou PER apparent (p.12).",
+   "doe": "Détail des nourrices EF-ECS en gaine : colonne ECS en PVCC DN32 avec calorifuge 38 mm, bouclage RECS PVCC DN16, puis par logement vanne d'arrêt, compteur, clapet, nourrice eau chaude et départs en PER Ø13x16 en dalle (ECS PER DN20 en amont de la nourrice).",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "La distribution en logement est bien en PER depuis une nourrice, conformément à la notice.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/01_Plans/03_Carnet de gaines/ACT_EXE_B_PLB_TN_PLN_600_B-Détails des gaines techniques EF_CHAUFFAGE_ECS.pdf",
+     "pages": "p.5"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.2.4",
+   "titre": "Évacuations des appareils (PVC)",
+   "notice": "Évacuations en tuyaux PVC apparents, raccordées aux chutes collectives (p.13).",
+   "doe": "Plans des réseaux CVPB : EU PVC Ø50 et Ø100, EV PVC Ø100. Note de calcul EU/EV : PVC 93,6/100, 56,6/63, etc., y compris pour les lave-linge et lave-vaisselle.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Toutes les évacuations sont en PVC, comme la notice le prévoit.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/01_Plans/01_Réseaux CVPB/R+1/ACT_EXE_C_PLB_R+1_PLN_010_F-Plan des réseaux  CVPB R+1 - Bâtiment C.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/02_NDC/05_Eaux usées - eaux vannes/ACT_EXE_TZ_PLB_GEN_NDC_004_B-NDC EU_EV.pdf",
+     "pages": "p.1-2"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.2.6",
+   "titre": "Attentes machines à laver (2 alimentations et 2 évacuations ; une seule pour les studios)",
+   "notice": "Deux alimentations et deux évacuations pour machines à laver, l'une en cuisine, l'autre en salle d'eau ou dans une autre pièce suivant plans. Un seul branchement lave-linge dans les studios (p.13).",
+   "doe": "La note de calcul EF compte, niveau par niveau en B et C, autant de « Lave linge » et de « Lave vaisselle » que de logements (ex. C R+3 : 8 et 8). La note EU/EV dimensionne les évacuations des lave-linge et lave-vaisselle en PVC. Robinet de machine à laver CGR 246S, modèle NF, à boisseau sphérique, sortie 20x27.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Les deux alimentations et les deux évacuations par logement sont dimensionnées et le robinet NF est documenté. Le cas des studios (un seul branchement) ne peut pas être isolé dans les notes de calcul, mais cela n'enlève rien à la prestation.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/02_NDC/02_Eau froide/ACT_EXE_TZ_PLB_GEN_NDC_002_D-NDC EF.pdf",
+     "pages": "bâtiments B et C"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/02_NDC/05_Eaux usées - eaux vannes/ACT_EXE_TZ_PLB_GEN_NDC_004_B-NDC EU_EV.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Accession/Plomberie/FT246S_Robinet LL PACK buanderie.pdf",
+     "pages": "p.1"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.2.7",
+   "titre": "Receveur de douche extra-plat",
+   "notice": "Receveur de douche blanc extra-plat en éco-résine, modèle FLOW (KRION SHELL) lisse de PORCELANOSA ou équivalent, dimensions suivant plans de vente, posé ou encastré (p.13).",
+   "doe": "Liste TPSA, bâtiments B et C : PORCELANOSA « RECE.FLOW SILK 100x80 BLANC KRION » et « RECE.FLOW SILK 120x90 BLANC KRION ». Fiche Krion : FLOW SILK 120x80 blanc (100254792), extra-plat en Krion Shell® (minéraux et résines à teneur en PET recyclé), recoupable, antidérapant classe I, norme UNE-EN 14527. Bonde FLAT D.90 inox (100258390), débit 29 l/min selon EN 274.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Même fabricant, même modèle et même matériau que la notice. La texture SILK est la plus lisse des deux proposées (classe I ; la ROCK est en classe III), ce qui répond à « lisse ». Petite incohérence de format : la liste cite du 120x90, la fiche du 120x80.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Liste des matériels et matériaux.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Accession/Plomberie/generar_FTEC_PDF.pdf",
+     "pages": "p.1-2"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Accession/Plomberie/generar_FTEC_siphon.pdf",
+     "pages": "p.1"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.2.7",
+   "titre": "Pare-douche / paroi de douche",
+   "notice": "Pare-douche ROTH CARIBA ou équivalent, ou paroi fixe NOVELLINI LUNES H, ou NOVELLINI YOUNG 2.0 en 1B+F1B, 2-1B (niche), 2 GFL ou 2-2P (niche), 2GFL+F1B, suivant configuration et plan architecte (p.13).",
+   "doe": "Liste ART DE LA POSE, bâtiments B et C : NOVELLINI, porte pivotante chromée, verre transparent, hauteur 200 cm. Références Y2GFL1171B (120 cm), Y2GFL0971B (100 cm) et Y21B771B (80 cm). Fiches Novellini YOUNG 2.0 1B et G+F en alignement : verre trempé 6 mm (UNI EN 14428), hauteur 200 cm, finition « 1B » = verre transparent et profilé Silver.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Ce sont les références YOUNG 2.0 de la notice (2-1B et 2 GFL), même gamme et même fabricant. Le KINEDO Smart Design de la même liste concerne uniquement le bâtiment A, hors notice. La liste annonce un profilé chromé alors que le code B correspond au Silver : écart d'aspect mineur.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/ART DE LA POSE DOE/3.2 Fiches produits/20260908 ART DE LA POSE  DOE BOUYGUES THIAIS ART MONY.doc",
+     "pages": "p.1",
+     "note": "liste des matériels ART DE LA POSE"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/ART DE LA POSE DOE/3.2 Fiches produits/FT NOVELLINI PORTE 1 BATTANT YOUNG-1B-FR.pdf",
+     "pages": "p.1-2"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/ART DE LA POSE DOE/3.2 Fiches produits/FT YOUNG-G+F-IN-LINEA-FR.pdf",
+     "pages": "p.1-2"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.2.7",
+   "titre": "Baignoire 170x80 acrylique",
+   "notice": "Baignoire 170x80 cm en acrylique, de type CALOS de NOVELLINI, ou au moins équivalent (p.13).",
+   "doe": "Liste TPSA, bâtiments B et C : JACOB DELAFON 3424145 – CORVETTE 170x80. Fiche E60905 CORVETTE : acrylique 170x80x42,8 cm, 16,3 kg, volume 181/111 l, NF, garantie 10 ans, fabrication française, pieds fournis, tablier acrylique en option. Vidage à câble NICOLL 0203577.",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Marque et modèle différents de la notice. Format (170x80), matériau (acrylique) et certification NF sont identiques, mais la Corvette est l'entrée de gamme de Jacob Delafon : environ 190 à 250 € en 170x75 et 180x80, contre environ 555 € pour la Calos 2.0 170x80 avec pieds, que Novellini classe en milieu de gamme. Le site Jacob Delafon présente l'E60905 en Minéracryl®, alors que la fiche du DOE indique « acrylique ». Équivalence fonctionnelle plausible, mais une gamme commerciale inférieure n'est pas exclue.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Liste des matériels et matériaux.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Accession/Plomberie/ft_JACO_E60905.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Accession/Plomberie/fp_NICO04_0203577.pdf",
+     "pages": "p.1"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://www.jacobdelafon.fr/bain-balneo/baignoire/encastre-rectangulaire/baignoire-en-mineracrylr-170-x-80-cm-0",
+     "titre": "Jacob Delafon – Baignoire en Minéracryl® 170 x 80 cm, réf. E60905-00 (Corvette)",
+     "apport": "Confirme la référence E60905, la collection Corvette et le matériau Minéracryl®"
+    },
+    {
+     "url": "https://www.novellini.com/content/com/int/en/collections/baths/calos-2-0.html",
+     "titre": "Novellini – Calos 2.0",
+     "apport": "Calos 2.0 disponible en 170x80, classée « medium price range »"
+    },
+    {
+     "url": "https://www.cherchons.com/maison/sanitaire/baignoire/baignoire-170x80-acrylique.html",
+     "titre": "Cherchons – baignoires 170x80 acrylique",
+     "apport": "Calos 2.0 170x80 avec pieds à 555 € chez ManoMano"
+    },
+    {
+     "url": "https://www.achatmoinscher.com/comparateur-de-prix-Baignoire/baignoire-droite-corvette-confort-acrylique-renforce-170-x-75.html",
+     "titre": "Achatmoinscher – Corvette confort 170x75",
+     "apport": "Ordre de prix de la gamme Corvette : environ 189 à 213 € (vu dans les résultats de recherche)"
+    }
+   ]
+  },
+  {
+   "article": "2.6.2.7",
+   "titre": "Tablier de baignoire type Wedi faïencé",
+   "notice": "Tablier de baignoire type Wedi ou équivalent avec revêtement faïencé, coloris selon harmonies (p.13).",
+   "doe": "Aucune fiche de tablier (Wedi ou autre) dans le lot 22-23. La fiche Corvette mentionne seulement un « tablier associé en option » (acrylique).",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Non documenté dans ce lot. Le tablier peut relever du lot carrelage ou faïence (10-14-15) : à vérifier, sinon à réclamer.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Accession/Plomberie/ft_JACO_E60905.pdf",
+     "pages": "p.1"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.2.7",
+   "titre": "Pare-bain pivotant",
+   "notice": "Pare-bain pivotant de type YOUNG 2.0 de NOVELLINI ou au moins équivalent (p.13).",
+   "doe": "Liste ART DE LA POSE, bâtiments B et C : NOVELLINI YOUNG, pivotant 1 volet 150x70 cm, chromé et transparent, réf. Y21V70-1B. Fiche YOUNG 2.0 1V : pare-baignoire 1 porte pivotante à 180°, réversible, verre 6 mm, hauteur 150 cm.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Modèle identique à la notice : YOUNG 2.0 1V de Novellini.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/ART DE LA POSE DOE/3.2 Fiches produits/20260908 ART DE LA POSE  DOE BOUYGUES THIAIS ART MONY.doc",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/ART DE LA POSE DOE/3.2 Fiches produits/PARE BAIN YOUNG-1V-FR-2021 (1).pdf",
+     "pages": "p.1"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.2.7",
+   "titre": "Meuble vasque",
+   "notice": "Meuble vasque de 80, 90 ou 120 cm, CEDAM modèle CASA ou équivalent : caisson avec étagères, 2 pieds et plinthe cache-tuyau, 2 tiroirs à poignées de tirage, vasque en résine. Ou meuble vasque suspendu de 62 ou 82 cm, SANIJURA modèle EQUINOX : 2 tiroirs à poignées et amortisseurs, plan céramique fin à vasque centrée (p.13).",
+   "doe": "Fiche produit A5 « Meuble vasque » (TPSA, bâtiments B et C, émise par Bouygues HAR le 24/06/2025, case « Proposition conforme » : CEDAM – SANIJURA, CASA – EQUINOX). Cahier technique CEDAM CASA en 80, 90 et 120 cm, P46 : panneaux mélaminés 16 mm, 2 tiroirs double paroi, plan vasque ESPLAN en marbre reconstitué (polyester et carbonate de calcium, gel coat), lot de 2 pieds LRP02CHB, socle amovible IBSOF, crédence verre 6 mm. Book SANIJURA EQUINOX : plans céramique de 62, 72, 82 et 122 cm, coulisses à amortisseur, 2 tiroirs à poignée alu.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Les modèles et marques sont ceux de la notice. La vasque CASA est en marbre reconstitué, c'est-à-dire une résine, ce qui répond à « vasque en résine ». Pieds et socle font office de plinthe cache-tuyau, et une crédence verre est même prévue en plus. Réserve : la fiche n'est pas visée par le MO ou le MOE, et la répartition CASA / EQUINOX par logement n'est pas donnée.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/Meubles vasques/BAT B-C.pdf",
+     "pages": "p.1-16"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.2.7",
+   "titre": "Miroir rond rétroéclairé anti-buée",
+   "notice": "Miroir rond CEDAM au-dessus du meuble vasque : Ø70 cm pour un meuble de 80 ou 90 cm, Ø90 cm pour un meuble de 120 cm, rétroéclairant et anti-buée (p.13).",
+   "doe": "Fiche A5 (CEDAM) : miroir rond rétro LED anti-buée MIRRET.RD70.AB.LED (Ø700, 22 W) et MIRRET.RD90.AB.LED (Ø900, 25 W). Miroir 4 mm sur profil aluminium cintré, LED périphérique 10,8 W/m, transformateur classe II IP44, système anti-buée intégré. Compositions CAS01/02 (80 et 90) avec Ø70 et CAS05/06 (120) avec Ø90.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Produit identique à la notice, avec la même règle de diamètre selon la largeur du meuble.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/Meubles vasques/BAT B-C.pdf",
+     "pages": "p.4, p.8-9, p.11"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.2.7",
+   "titre": "Cuvette WC suspendue sans bride",
+   "notice": "Ensemble WC suspendu sans bride, blanc, modèle ODEON RIVE GAUCHE de JACOB DELAFON ou équivalent (p.13).",
+   "doe": "Fiche dans le dossier Accession : JACOB DELAFON ODÉON RIVE GAUCHE EDR102, cuvette suspendue sans bride carénée, céramique, 54 x 36,2 cm, NF, double chasse 2,6/4 l et 3/6 l, garantie céramique 10 ans. Mais la liste TPSA (bâtiments B et C) indique « 3499674 – ODEON UP SUSPENDU 52x36 ».",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Contradiction entre documents. La fiche technique montre le modèle de la notice, la liste des matériels un autre modèle (Odéon Up), avec une cote de 52x36 qu'aucune source consultée ne confirme pour un Odéon Up (les cuvettes Odéon Up sans bride font 54 x 36 ou 36,5 cm). L'Odéon Up est une gamme Jacob Delafon de niveau comparable, mais on ne sait pas si la version livrée est sans bride. Il faut confirmer le modèle réellement posé.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Accession/Plomberie/ft_JACO_EDR102_00.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Liste des matériels et matériaux.pdf",
+     "pages": "p.2"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://www.jacobdelafon.fr/sites/default/files/public/2026-01/Catalogue%20Installateur%202026.pdf",
+     "titre": "Jacob Delafon – Catalogue installateur 2026",
+     "apport": "Vu dans les résultats de recherche : pack EDR112-00 Odéon Rive Gauche sans bride à environ 357 € HT (PDF trop volumineux pour être lu directement)"
+    }
+   ]
+  },
+  {
+   "article": "2.6.2.7",
+   "titre": "Abattant WC à frein de chute",
+   "notice": "Abattant avec frein de chute, blanc, de l'ensemble ODEON RIVE GAUCHE (p.13).",
+   "doe": "Fiche dans le dossier Accession : JACOB DELAFON E24889, abattant ODÉON RIVE GAUCHE thermodur extra-plat à descente progressive, déclipsable, charnières métal, NF, garantie 2 ans. Mais la liste TPSA (bâtiments B et C) indique « 3455827 – BRIVE E70014-00 », abattant polypropylène à descente progressive.",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Dans les deux cas l'exigence de frein de chute est remplie. En revanche le Brive E70014 est en polypropylène avec charnières plastiques (61 € au catalogue installateur 2026), donc de gamme inférieure au thermodur extra-plat à charnières métal E24889 associé à l'Odéon Rive Gauche. À cause de la contradiction entre documents, le modèle réellement posé est incertain.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Accession/Plomberie/ft_JACO_E24889_00.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Liste des matériels et matériaux.pdf",
+     "pages": "p.2"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://www.jacobdelafon.fr/wc-bidet/accessoire-pour-wc-et-bidet/accessoire-pour-wc-et-bidet/abattant-polypropylene-descente-progressive",
+     "titre": "Jacob Delafon – Abattant polypropylène à descente progressive E70014 (Brive)",
+     "apport": "Confirme la référence E70014-00, la collection Brive, le polypropylène et la descente progressive"
+    }
+   ]
+  },
+  {
+   "article": "2.6.2.7",
+   "titre": "Bâti-support WC",
+   "notice": "Bâti-support de NICOLL (p.13).",
+   "doe": "Liste TPSA, bâtiments B et C : NICOLL VIRTUO. Fiche NICOLL WBSA2R VIRTUO MIX : bâti autoportant en 2 parties, réservoir 3/6 l, robinet flotteur classe acoustique I, marques NF017 (appareils sanitaires) et NF076 (composants), charge 400 kg selon NF D12-208, compatible PMR, plaque de commande vendue séparément.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Le fabricant est bien celui de la notice et le produit est certifié NF.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Liste des matériels et matériaux.pdf",
+     "pages": "p.2"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Accession/Plomberie/FT_WBSA2R-1.pdf",
+     "pages": "p.1"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.2.7",
+   "titre": "Plaque de commande de chasse de couleur contrastée",
+   "notice": "Commande de la chasse d'eau de couleur contrastée (p.13).",
+   "doe": "Aucune fiche de plaque de commande dans le DOE. La fiche WBSA2R précise « plaque de commande vendue séparément ».",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Non documenté : rien ne permet de vérifier la couleur contrastée exigée.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Accession/Plomberie/FT_WBSA2R-1.pdf",
+     "pages": "p.1"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.2.8",
+   "titre": "Mitigeur de vasque",
+   "notice": "Mitigeur NF avec tirette de vidage, modèle VERNIS BLEND de HANSGROHE ou équivalent (p.14).",
+   "doe": "Fiche HANSGROHE 71550000 Vernis Blend, mitigeur de lavabo 70 avec tirette et vidage synthétique : cartouche céramique, 5 l/min, limiteur de température, ECAU E00 CH2 A3 U3, NF077-375-M1, ACS. La liste TPSA (B et C) indique 71584000 Vernis Blend 70 CoolStart, avec tirette selon hansgrohe.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Gamme identique à la notice, mitigeur NF avec tirette. Les deux références se valent, la CoolStart (eau froide en position centrale) étant légèrement plus économe.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Accession/Plomberie/71550000_hansgrohe_product_specification.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Liste des matériels et matériaux.pdf",
+     "pages": "p.1"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://pro.hansgrohe.com/articledetail-vernis-blend-single-lever-basin-mixer-70-coolstart-with-pop-up-waste-set-71584000",
+     "titre": "hansgrohe Pro – Vernis Blend 70 CoolStart avec tirette 71584000",
+     "apport": "Vu dans les résultats de recherche : 71584000 = Vernis Blend 70 CoolStart avec garniture de vidage à tirette"
+    }
+   ]
+  },
+  {
+   "article": "2.6.2.8",
+   "titre": "Robinetterie de douche (thermostatique mural, douchette 3 jets, barre 90 cm, douche de tête)",
+   "notice": "Mitigeur de douche mural thermostatique NF, modèle VERNIS BLEND de HANSGROHE, douchette 3 jets sur barre 90 cm et douche de tête HANSGROHE, ou équivalent (p.14).",
+   "doe": "Fiche HANSGROHE 26276000 Vernis Blend, colonne de douche 200 1 jet avec thermostatique : douche de tête 205 mm (jet Rain), douchette 2 jets (Rain, IntenseRain), thermostat Vernis avec SafetyStop à 40 °C, barre Ø19 mm, ECAU E1/1 C1 A3 U3, NF077-375-M1. La liste TPSA (B et C) cite 26089000, la version EcoSmart (8,7 l/min) de la même colonne.",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Même gamme Vernis Blend : thermostat NF et douche de tête présents. Mais la douchette n'a que 2 jets au lieu des 3 exigés, et la colonne remplace la barre de 90 cm. L'équivalence est donc partielle. La référence diffère aussi entre la liste (26089000 EcoSmart) et la fiche (26276000).",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Accession/Plomberie/26276000_hansgrohe_product_specification.pdf",
+     "pages": "p.1-2"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Liste des matériels et matériaux.pdf",
+     "pages": "p.1"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://www.victorianplumbing.co.uk/hansgrohe-vernis-blend-ecosmart-showerpipe-200-thermostatic-shower-mixer-26089000",
+     "titre": "Victorian Plumbing – Vernis Blend EcoSmart Showerpipe 200 thermostatic 26089000",
+     "apport": "26089000 = version EcoSmart (8,7 l/min) de la colonne Vernis Blend 200, douche de tête 205 mm, 349,95 £"
+    }
+   ]
+  },
+  {
+   "article": "2.6.2.8",
+   "titre": "Mitigeur bain-douche thermostatique",
+   "notice": "Mitigeur bain/douche thermostatique NF avec inverseur, posé sur colonnettes, modèle ECOSTAT de HANSGROHE ou équivalent (p.14).",
+   "doe": "La liste TPSA (B et C) cite deux produits. Ligne « BARRE DE DOUCHE » : 13201000 HG ECOSTAT 1001 CL, thermostatique bain/douche apparent. Ligne « MITIGEUR BAIGNOIRE » : PAINI 3261658H ULTIMA THERM C3 CHR. Fiche dans le dossier Accession : Paini Ultima C3 ULCR111THC3, bain-douche thermostatique certifié NF, blocage à 38 °C, corps tiède. Aucune fiche hansgrohe Ecostat bain. Colonnettes RIQUIER 07158 documentées.",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Contradiction entre documents : un Ecostat 1001 CL (conforme, environ 220 € HT au tarif hansgrohe 2021) et un Paini Ultima C3 (autre marque, plus économique) sont annoncés tous deux pour les baignoires de B et C. Le Paini est NF, thermostatique et monté sur colonnettes, donc fonctionnellement proche, mais le modèle réellement posé n'est pas établi.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Liste des matériels et matériaux.pdf",
+     "pages": "p.1-2"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Accession/Plomberie/fiche-ULCR111THC3.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Accession/Plomberie/07158_fiche_technique_fr-8.pdf",
+     "pages": "p.1"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://assets.hansgrohe.com/celum/web/Essentiel_hansgrohe_2021.pdf",
+     "titre": "hansgrohe – Essentiel 2021 (tarif)",
+     "apport": "Vu dans les résultats de recherche : 13201000 Ecostat 1001 CL thermostatique B/D, PPHT 220 €"
+    }
+   ]
+  },
+  {
+   "article": "2.6.2.8",
+   "titre": "Douchette et barre de la baignoire (PULSIFY 3 jets sur barre 90 cm)",
+   "notice": "Douchette 3 jets sur barre 90 cm, modèle PULSIFY de HANSGROHE ou équivalent, avec le mitigeur bain-douche (p.14).",
+   "doe": "Aucune fiche Pulsify ni barre de 90 cm. Le seul ensemble douchette + barre fourni hors colonne Vernis Blend est le HANSGROHE 27812400 « Crometta Combi douche Vario avec barre 65 cm / Ecostat 1001 CL » : douchette Crometta Vario 100 mm à 2 jets (Rain, IntenseRain), barre Ø22 mm de 669 mm, supports muraux synthétiques, ECAU E1 C2 A3 U3.",
+   "verdict": "rouge",
+   "equivalence": false,
+   "justification": "La prestation de la notice (Pulsify 3 jets, barre 90 cm) n'apparaît nulle part dans le DOE. Le seul ensemble documenté est une Crometta Vario à 2 jets sur barre de 65 cm : entrée de gamme hansgrohe, 2 jets contre 3 et 65 cm contre 90. À titre de comparaison, le set Pulsify Select S 105 3 jets avec barre 90 cm (24171000) seul vaut 157,93 £ TTC, alors que le combi Crometta complet, thermostat compris, est à 215 € HT au tarif 2021. Réserve : le DOE n'indique pas expressément l'emplacement de pose du combi Crometta, mais il ne documente aucune autre douchette pour les baignoires.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Accession/Plomberie/27812400_hansgrohe_product_specification (1).pdf",
+     "pages": "p.1-4"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Liste des matériels et matériaux.pdf",
+     "pages": "p.1"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://pro.hansgrohe.com/articledetail-crometta-shower-system-for-exposed-installation-vario-with-ecostat-1001-cl-thermostat-and-shower-bar-65-cm-27812400",
+     "titre": "hansgrohe Pro – Crometta Vario avec Ecostat 1001 CL et barre 65 cm (27812400)",
+     "apport": "Douchette à 2 jets (Rain, IntenseRain), barre 65 cm, 13,8 l/min"
+    },
+    {
+     "url": "https://www.hansgrohe.co.uk/articledetail-pulsify-select-s-shower-set-105-3jet-relaxation-ecosmart-with-shower-bar-90-cm-24171000",
+     "titre": "hansgrohe UK – Pulsify Select S 105 3jet Relaxation EcoSmart, barre 90 cm (24171000)",
+     "apport": "3 jets (PowderRain, IntenseRain, Massage), douchette 105 mm, barre 90 cm, 157,93 £ TTC"
+    },
+    {
+     "url": "https://assets.hansgrohe.com/celum/web/Essentiel_hansgrohe_2021.pdf",
+     "titre": "hansgrohe – Essentiel 2021 (tarif)",
+     "apport": "Vu dans les résultats de recherche : 27812400 à 215 € HT"
+    }
+   ]
+  },
+  {
+   "article": "3.1.4 / 3.2.4 / 3.3.4",
+   "titre": "Robinets de puisage privatifs (balcons et terrasses > 8 m², terrasses du RDC, jardins)",
+   "notice": "Robinet de puisage sur les balcons en étage de plus de 8 m², sur les terrasses privatives du RDC, sur les terrasses en étage de plus de 8 m² et sur la façade côté jardin (p.18).",
+   "doe": "Fiche CGR 2203NF : robinet de puisage d'arrosage NF, laiton, nez à raccord. Plans des réseaux CVPB et INCO (RDC, R+3 à R+5, toiture-terrasse) : mentions « ROBINET DE PUISAGE ». La note de calcul EF compte des RP (ex. B RDC : 7 ; C R+5 : 7). Détail de nourrice : « départ EF vers robinet de puisage extérieur ».",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Produit NF documenté, avec départs dédiés sur nourrice et emplacements indiqués sur les plans. Le contrôle logement par logement du seuil de 8 m² n'a pas pu être fait à partir du DOE.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/TPSA/Accession/Plomberie/FT2203NF_Robinet de puisage NF.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/01_Plans/02_Réseaux INCO/RDC/ACT_EXE_B_CVPB_RDC_PLN_071_C_Plan des réseaux  INCO RDC - Bâtiment B.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/02_NDC/02_Eau froide/ACT_EXE_TZ_PLB_GEN_NDC_002_D-NDC EF.pdf",
+     "pages": "bâtiments B et C"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/01_Plans/03_Carnet de gaines/ACT_EXE_B_PLB_TN_PLN_600_B-Détails des gaines techniques EF_CHAUFFAGE_ECS.pdf",
+     "pages": "p.6"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "6.3",
+   "titre": "Robinet de puisage pour l'arrosage des espaces verts communs",
+   "notice": "Un robinet de puisage prévu pour l'arrosage des parties communes (p.26).",
+   "doe": "Local technique de branchement EF : réseau dédié EFAR « eau froide arrosage des espaces verts non privatifs » en PVC-P 32. Synoptique EF : « Départ Arrosage ». Plan INCO RDC bâtiment B : point « pour arrosage EV ».",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Un départ dédié à l'arrosage des espaces verts communs est prévu et repéré sur plan, ce qui va au-delà de la simple exigence de la notice.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/01_Plans/08_Maquettage locaux techniques/ACT_EXE_A_PLB_SS_PLN_1001_A-Maquettage Local Technique Branchement EF - Bâtiment B.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/02_NDC/02_Eau froide/ACT_EXE_TZ_PLB_GEN_SCH_022_D-SYNOPTIQUE EF.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/01_Plans/02_Réseaux INCO/RDC/ACT_EXE_B_CVPB_RDC_PLN_071_C_Plan des réseaux  INCO RDC - Bâtiment B.pdf",
+     "pages": "p.1"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "5.4",
+   "titre": "Alimentation en eau : compteur général, colonnes PVC pression, vanne d'isolement avec purge, robinet de coupure et manchon by-pass par logement",
+   "notice": "Compteur général dans l'immeuble ou en citerneau avec vanne d'arrêt générale, distribution horizontale en PVC pression. Colonnes collectives en PVC pression avec vanne d'isolement et purge en pied de colonne. En gaine, un robinet de coupure générale par logement et un manchon by-pass pour compteurs individuels éventuels (p.24).",
+   "doe": "Local technique de branchement EF : compteur relié à la GTB, vannes d'isolement, disconnecteur, filtres, surpresseur et détendeur, réseaux EF en PVC-P 63 et 75. Synoptique EF : colonnes PVC-P avec calorifuge, compteur, vanne d'isolement, vidange, « manchette témoin ». Détail des gaines : légende « vanne d'arrêt et de purge », « vanne d'arrêt », « compteur », « manchette », nourrices, et panoplie par logement (vanne, compteur ou manchette, clapet).",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Tous les organes demandés sont représentés : compteur général, PVC pression, vanne d'arrêt et de purge, vanne d'arrêt et manchette par logement. Un surpresseur est aussi installé.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/01_Plans/08_Maquettage locaux techniques/ACT_EXE_A_PLB_SS_PLN_1001_A-Maquettage Local Technique Branchement EF - Bâtiment B.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/02_NDC/02_Eau froide/ACT_EXE_TZ_PLB_GEN_SCH_022_D-SYNOPTIQUE EF.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/01_Plans/03_Carnet de gaines/ACT_EXE_B_PLB_TN_PLN_600_B-Détails des gaines techniques EF_CHAUFFAGE_ECS.pdf",
+     "pages": "p.1-3"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "1.7.1",
+   "titre": "Chutes d'eaux pluviales",
+   "notice": "Chutes EP intérieures en PVC rigide en gaine technique ; chutes extérieures en PVC en façade (p.7).",
+   "doe": "Synoptique EP et plans CVPB : EP PVC Ø75, Ø100, Ø125, Ø140 et Ø200, EPG-R Ø100 et Ø110 PVC.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Toutes les chutes et descentes EP sont en PVC, conformément à la notice.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/02_NDC/04_Eaux pluviales/ACT_EXE_TZ_PLB_GEN_SCH_025_A-SYNOPTIQUE EP.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/01_Plans/01_Réseaux CVPB/R+1/ACT_EXE_C_PLB_R+1_PLN_010_F-Plan des réseaux  CVPB R+1 - Bâtiment C.pdf",
+     "pages": "p.1"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "1.7.2",
+   "titre": "Chutes d'eaux usées et eaux vannes",
+   "notice": "Chutes EU en PVC rigide en gaine technique des logements, raccordées au réseau EU-EV (p.7).",
+   "doe": "Plans CVPB (gaines) : EU PVC Ø100 et Ø50, EV PVC Ø100. Note de calcul EU/EV : chutes en PVC 93,6/100 et 103,6/110 (descentes « V »).",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Les chutes sont en PVC, comme prévu.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/01_Plans/01_Réseaux CVPB/R+1/ACT_EXE_C_PLB_R+1_PLN_010_F-Plan des réseaux  CVPB R+1 - Bâtiment C.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/02_NDC/05_Eaux usées - eaux vannes/ACT_EXE_TZ_PLB_GEN_NDC_004_B-NDC EU_EV.pdf",
+     "pages": "p.1-2"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "1.7.3",
+   "titre": "Canalisations en sous-sol",
+   "notice": "Canalisations en sous-sol en PVC rigide, en apparent, raccordées au réseau extérieur (p.7).",
+   "doe": "Plans des réseaux PLB SS1 des bâtiments B et C : canalisations EU, EV et EP en PVC (plus de 140 mentions PVC par plan).",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Les collecteurs du sous-sol sont en PVC, conformément à la notice.",
+   "sources_doe": [
+    {
+     "fichier": "22-23 - Plomberie CVC/Plomberie - chauffage/01_Plans/01_Réseaux CVPB/SS1/ACT_EXE_B_PLB_SS-1_PLN_003_F-Plan des réseaux  PLB SS1 - Bâtiment B.pdf",
+     "pages": "p.1"
+    }
+   ],
+   "sources_web": []
+  }
+ ],
+ "observations": "1) Champ : la notice porte sur l'accession. Elle indique que le bâtiment A est vendu en locatif intermédiaire à un bailleur. Le DOE le confirme : le dossier TPSA « Logements sociaux » et la liste TPSA rattachent au bâtiment A des produits sans rapport avec la notice (baignoire ROCA Contesa acier 170x70, WC ALLIA Mango 2 recyclé, receveur VITRA Cascade 90x90, robinetterie PAINI Ultima C3, parois KINEDO Smart Design, meubles SALGAR Urban). L'analyse ci-dessus porte donc sur les bâtiments B et C. 2) Contradictions entre la liste TPSA et les fiches techniques sur plusieurs appareils sanitaires de B et C : WC Odéon Up contre Odéon Rive Gauche, abattant Brive E70014 contre E24889, mitigeur bain Paini Ultima C3 contre hansgrohe Ecostat 1001 CL, références hansgrohe 26089000 contre 26276000 et 71584000 contre 71550000. La liste contient aussi des fautes (« PIANI » pour Paini, « PPRCELANOSA »). Il faut demander à TPSA une liste corrigée et une répartition par logement. 3) Pièces manquantes de ce 1er envoi : fiches de la plaque de commande WC, du tablier de baignoire (Wedi), de la douchette Pulsify et de sa barre de 90 cm, de la kitchenette des studios et du mitigeur PAINI VENTUS (option évier). Aucune variante Roth Cariba ni Novellini Lunes H n'est documentée, ce qui n'est pas anormal puisque ce sont des alternatives. 4) Anomalies documentaires : les fiches TPSA « 1224 - Nourrice lgt EF ECS (variante) » et « 1226 - Calorifuge ECS » portent l'en-tête d'un autre chantier (ILOT BOISSEAU / ATRIUM CITY, Clichy, 2021). La liste ART DE LA POSE porte l'en-tête « THIAIS_PARCS EN SCENE_740HN_LCY – BATIMENTS A C - D », et son sommaire indique « Qualifications : Non » (attestation de non-qualification fournie). La note de calcul EF du bâtiment B, niveau R+1, liste par erreur les logements B02xx. La fiche meuble vasque A5 est « proposition conforme » mais le choix MO/MOE n'est pas rempli. 5) Hors notice : lave-mains Jacob Delafon (Odéon Up E4799G, Odéon Rive Gauche EGP112) présents dans le dossier Logements sociaux ; kit de relevage pluvial Jetly DR-Steel dans le dossier Accession (pompes EP, hors appareils sanitaires)."
+}

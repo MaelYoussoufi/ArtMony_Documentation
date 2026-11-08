@@ -1,0 +1,1130 @@
+{
+ "agent": "G_electricite_ascenseur",
+ "perimetre": "Électricité courants forts et faibles (logements, parties communes, parking, extérieurs), contrôle d'accès et interphonie, éclairage, vidéoprotection, ascenseurs (lots 25 C2FI et 17 ORONA)",
+ "items": [
+  {
+   "article": "2.6.3.1",
+   "titre": "Type d'installation et tableau d'abonné en gaine technique (ETEL)",
+   "notice": "Installation encastrée. Origine au tableau d'abonné (disjoncteur général, coupe-circuits, comptage) placé dans une gaine technique ETEL conforme NF C 15-100, dans l'entrée ou à proximité (p.14).",
+   "doe": "GTL encastrée Cofrelec, bac et porte réf. 575301 (L 510 × H 950 × P 200/140 mm), localisée « Entrée » (fiche 5). Le tableau abonné en saillie dans la GTL comporte une platine ENEDIS DB 2P 15/45 A 500 mA S, 2 ou 3 interrupteurs différentiels 30 mA (type A et AC) et des disjoncteurs divisionnaires. Les boîtes d'encastrement sont des No Air (doublage BBC) et Blue Box (cloison), prof. 40 mm. Les plans d'implantation placent le tableau dans l'entrée.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Les exigences génériques sont remplies : installation encastrée et tableau en GTL dans l'entrée. Contradiction de marque à signaler : la fiche « Tableau électrique » montre du Schneider Resi9 (R9H13403, R9FC6xx, R9ERC263), alors que les schémas unifilaires des tableaux abonnés montrent du Legrand DX3-ID / DNX3. La notice n'impose pas de marque pour le tableau, donc cela ne pénalise pas le verdict.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.1, p.15-21",
+     "note": "Fiches 4 (tableau) et 5 (GTL Cofrelec)"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/05. TABLEAUX ABONNES/BATIMENTS B ET C/BAT. B ET C - 3 PIECES.pdf",
+     "pages": "p.1-3",
+     "note": "Schéma tableau 3 pièces bât. B/C"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL20A_IMPLANTATION R+1.pdf",
+     "pages": "plan unique",
+     "note": "Tableau en entrée, logements B105/B106"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.3.2",
+   "titre": "Puissance à desservir",
+   "notice": "Puissance à fournir de 6 à 12 kW selon le type de logement et les calculs (p.14).",
+   "doe": "Schémas des tableaux abonnés : disjoncteur de branchement ENEDIS 15/45 A 500 mA S pour les 1-2 P, 3 P et 4-5 P (bât. B/C, y compris VEFA, et bât. A < 100 m²). 60 A pour les 4-5 pièces > 100 m² du bât. A.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Un disjoncteur 15/45 A réglé à 30 ou 45 A correspond à 6 ou 9 kVA en monophasé ; un calibre 60 A permet 12 kVA. La plage 6-12 kVA de la notice est donc compatible. Le réglage effectif dépend de l'abonnement souscrit, ce qui est normal.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/05. TABLEAUX ABONNES/BATIMENTS B ET C/BAT. B ET C - 1 ET 2 PIECES.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/05. TABLEAUX ABONNES/BATIMENTS B ET C/BAT. B ET C - 3 PIECES.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/05. TABLEAUX ABONNES/BATIMENT A/BAT. A - 4 ET 5 PIECES SUPERIEURS A 100M².pdf",
+     "pages": "p.1",
+     "note": "D1 60 A"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.3.3",
+   "titre": "Appareillage (interrupteurs, prises) LEGRAND DOOXIE",
+   "notice": "Appareillage de modèle DOOXIE de chez LEGRAND, ou équivalent (p.14).",
+   "doe": "Appareillage Legrand Dooxie blanc dans les logements (fiche 1 avec extraits du catalogue Legrand Dooxie). Poussoir de sonnette palier Legrand Dooxie 600018 blanc. En extérieur (terrasses) et dans les gaines SG : Schneider Mureva Styl étanche IP55/IK08, hors champ de l'article.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Même marque et même gamme que la notice (Legrand Dooxie), confirmées par la fiche produit des trois bâtiments.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.1-9, p.43"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENT A.pdf",
+     "pages": "p.1-9"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://www.legrand.fr/catalogue/prise-electrique/prise-de-courant-2pt-surface-dooxie-16a-finition-blanc",
+     "titre": "Prise de courant 2P+T Surface Dooxie 16 A blanc (Legrand, résultat de recherche)",
+     "apport": "Prises Dooxie 16 A 250 V à éclips de protection enfant, socle rétractable, IP20."
+    }
+   ]
+  },
+  {
+   "article": "2.6.3.3",
+   "titre": "Prises de courant à éclipse",
+   "notice": "Toutes les prises de courant seront à éclipse (p.14).",
+   "doe": "Prises 2P+T Legrand Dooxie (fiche 1).",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Les prises Dooxie ont en série des éclips (volets) de protection enfant, ce qui satisfait l'exigence.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.2-9"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://www.legrand.fr/catalogue/prise-electrique/prise-de-courant-2pt-surface-dooxie-16a-finition-blanc",
+     "titre": "Prise de courant 2P+T Surface Dooxie 16 A blanc (Legrand, résultat de recherche)",
+     "apport": "Prises Dooxie 16 A 250 V à éclips de protection enfant, socle rétractable, IP20."
+    }
+   ]
+  },
+  {
+   "article": "2.6.3.3",
+   "titre": "Dispositifs de connexion de luminaires (DCL)",
+   "notice": "Points d'éclairage en plafond et en applique équipés de DCL (p.14) ; DCL en plafond et en applique en cuisine (p.15).",
+   "doe": "Douille DCL BLM 710100 E27 blanche (fiche 2). Légende des plans : « KIT DCL EN PLAFOND » et « KIT DCL EN APPLIQUE H=1,80 m », présents en cuisine (plafond + applique) et dans toutes les pièces sondées.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Exigence générique remplie et documentée par une fiche et par les plans.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.10"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL20A_IMPLANTATION R+1.pdf",
+     "pages": "légende et logement B106"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.3.3",
+   "titre": "Équipement du séjour (prises 16 A, prise double multimédia, RJ45) — sondage",
+   "notice": "Séjour : 1 point lumineux, 1 PC 16 A par tranche de 4 m² (au moins 5 si séjour ≤ 28 m², 7 au-delà), dont 1 près de l'interrupteur, plus 1 prise double supplémentaire pour le multimédia près des 2 RJ45 (p.14-15).",
+   "doe": "Sondage sur les plans DOE. B106 (T2 VEFA, R+1 bât. B) : 1 DCL plafond en va-et-vient ; 4 PC 16 A (dont 1 à 1,00 m près de l'interrupteur d'entrée) ; au point TV, 2 PC simples + 2 RJ45. B205 (T3 VEFA, R+2 bât. B) : même schéma, soit 4 PC 16 A + 2 PC au point multimédia + 2 RJ45. Les cuisines ouvertes ont leurs propres prises, comptées à part.",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Sur les deux logements sondés, le séjour compte 4 prises « courantes » plus 2 prises au point multimédia, soit 6 au total. La notice en demande au moins 5 plus une prise double supplémentaire, soit l'équivalent de 7 socles. Il manquerait donc probablement une prise par séjour, sauf si l'on rattache au séjour une prise basse de la zone cuisine ouverte (attribution ambiguë sur plan) ou si la surface et la lecture de la notice conduisent à un autre décompte. Les surfaces des séjours ne figurent pas dans le DOE. À vérifier sur place.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL20A_IMPLANTATION R+1.pdf",
+     "pages": "plan unique",
+     "note": "Logement B106/T2 VEFA (B105 est un TMA, écarté du sondage)"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL30A_IMPLANTATION R+2.pdf",
+     "pages": "plan unique",
+     "note": "Logement B205/T3 VEFA"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.3.3",
+   "titre": "Équipement des chambres (3 PC 16 A + RJ45) — sondage",
+   "notice": "Chambre principale : 1 point lumineux, 3 PC 16 A (de part et d'autre du lit et près de la RJ45), 1 RJ45. Chambres secondaires : 1 point lumineux, 3 PC, RJ45 pour les chambres 2 (p.15).",
+   "doe": "B106 CH : DCL plafond, 4 PC 16 A (2 en tête de lit, 1 à 1,00 m près de la porte, 1 près de la RJ45), plus 1 prise USB et 1 RJ45. B205 CH2 : 3 PC + 1 RJ45. Les chambres 1 sondées (B205, B105) ont aussi au moins 3 PC, une prise H près de la porte et une RJ45.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Le nombre de prises et de RJ45 est atteint ou dépassé (prise USB en plus dans B106) sur les chambres sondées.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL20A_IMPLANTATION R+1.pdf",
+     "pages": "plan unique",
+     "note": "B106"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL30A_IMPLANTATION R+2.pdf",
+     "pages": "plan unique",
+     "note": "B205"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.3.3",
+   "titre": "Équipement de la cuisine (prises plan de travail, 32 A, lave-vaisselle 20 A, attente hotte, DCL) — sondage",
+   "notice": "Cuisine : DCL plafond + DCL applique ; attente hotte à 205 cm ; 32 A+T cuisson ; 6 PC 16 A dont 4 à 120 cm, 1 près de l'interrupteur, 1 à 45 cm ; 20 A+T lave-vaisselle à 45/60 cm (p.15).",
+   "doe": "B106 et B205 : DCL plafond + applique, prise « hotte » à 2,05 m, prise 32 A à 0,45 m (plaque), 4 PC « cuisine » à 1,20 m, 1 PC H près de l'interrupteur, 1 PC à 0,45 m, 1 prise USB à 1,20 m, prise 20 A lave-vaisselle à 0,45 m, prise 20 A four. Tableau 3 P : circuits dédiés plaque 32 A (D2), four 20 A (D7), lave-vaisselle 20 A (D12), lave-linge 20 A (D3).",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Toutes les attentes listées par la notice sont présentes sur les logements sondés et alimentées par des circuits spécialisés conformes. Seule la prise micro-ondes diffère (item suivant).",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL20A_IMPLANTATION R+1.pdf",
+     "pages": "légende + B106"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL30A_IMPLANTATION R+2.pdf",
+     "pages": "B205"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/05. TABLEAUX ABONNES/BATIMENTS B ET C/BAT. B ET C - 3 PIECES.pdf",
+     "pages": "p.1-3"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.3.3",
+   "titre": "Prise four micro-ondes 20 A à 185 cm",
+   "notice": "1 prise de courant 20 A située à 185 cm du sol, pour le four micro-ondes (p.15-16).",
+   "doe": "Légende des plans : « Prise de courant 16A Mini Four H=1,45m », repère « MO » au-dessus du plan de travail (B106, B205). Les tableaux abonnés ont un circuit « FOUR » 20 A dédié (D7, tableau 3 P).",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Une prise dédiée existe sur un circuit 20 A, mais l'appareillage est un socle 16 A posé à 1,45 m au lieu de 1,85 m. Fonctionnellement c'est équivalent (socle 16 A sur circuit spécialisé, usage courant NF C 15-100), mais ce n'est pas la lettre de la notice. Hauteur et calibre à vérifier sur place selon l'implantation des meubles hauts.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL20A_IMPLANTATION R+1.pdf",
+     "pages": "légende + B106"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/05. TABLEAUX ABONNES/BATIMENTS B ET C/BAT. B ET C - 3 PIECES.pdf",
+     "pages": "p.2",
+     "note": "D7 FOUR 20 A"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.3.3",
+   "titre": "Équipement de la salle d'eau / salle de bains — sondage",
+   "notice": "SdE principale : point lumineux plafond + applique (meuble vasque) en double allumage, 1 PC 16 A près du miroir, 1 PC 20 A spécialisée lave-linge à 45/60 cm. SdE secondaire : plafond + applique + 1 PC (p.16).",
+   "doe": "B106 (SDB) et B205 (SDE) : DCL plafond, interrupteur double allumage, PC H près du miroir, prises spécialisées 20 A à 0,45 m (lave-linge), alimentation du sèche-serviettes (circuit dédié D9 au tableau 3 P).",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Équipement conforme sur les deux logements sondés.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL20A_IMPLANTATION R+1.pdf",
+     "pages": "B106"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL30A_IMPLANTATION R+2.pdf",
+     "pages": "B205"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/05. TABLEAUX ABONNES/BATIMENTS B ET C/BAT. B ET C - 3 PIECES.pdf",
+     "pages": "p.1-2"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.3.3",
+   "titre": "Équipement des WC indépendants — sondage",
+   "notice": "WC indépendant : 1 point d'éclairage en plafond commandé par interrupteur simple allumage (p.16).",
+   "doe": "Plans RDC et R+2 bât. B : les WC indépendants (B001, B003, B201, B204…) ont un point lumineux plafond et un interrupteur ; dans B106 et B205, le WC est intégré à la SdB/SdE.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Équipement minimal présent dans les WC vus au sondage (lecture visuelle des plans, sans exhaustivité).",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL10A_IMPLANTATION RDC.pdf",
+     "pages": "plan unique"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL30A_IMPLANTATION R+2.pdf",
+     "pages": "plan unique"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.3.3",
+   "titre": "Détecteur autonome avertisseur de fumée (DAAF)",
+   "notice": "1 DAAF dans le dégagement, ou à défaut dans l'entrée (p.15).",
+   "doe": "DAAF Finsecur Calypso (Calypso-II-R, DAAF radio, Ø 110 × 61 mm, 85 dB à 3 m), localisé « Entrée » (fiche 6). Symbole « détecteur de fumée autonome » dans l'entrée ou le dégagement des logements sondés.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Exigence générique remplie par un DAAF certifié NF EN 14604, avec en plus une interconnexion radio.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.23-25"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL20A_IMPLANTATION R+1.pdf",
+     "pages": "B106"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://finsecur.com/user/pdf/produit/produit_226436.pdf",
+     "titre": "Finsecur Calypso-II-R, fiche technique (résultat de recherche)",
+     "apport": "DAAF à liaison radio conforme à NF EN 14604:2005+AC:2008 (certificat 0333-CPR-292047), pile lithium scellée 10 ans, interconnexion jusqu'à 10 détecteurs."
+    }
+   ]
+  },
+  {
+   "article": "2.6.3.3",
+   "titre": "Sonnerie de porte palière",
+   "notice": "Sonnerie intégrée à l'interphone (p.16).",
+   "doe": "Sonnerie modulaire en tableau d'abonné (repère « SONNERIE », sur le circuit éclairage D4 « ECLAIRAGE + SONNERIE ») et poussoir de sonnette palier Legrand Dooxie 600018 (fiche « SERVICES GENERAUX (BOUTON DE SONNETTE) »). Le poste Comelit 2708W n'est pas décrit comme assurant l'appel palier.",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "La fonction sonnette existe, mais par une sonnerie modulaire indépendante et non par l'interphone comme le décrit la notice. L'écart porte sur la solution, pas sur le service rendu, et il n'est pas manifestement inférieur.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/05. TABLEAUX ABONNES/BATIMENTS B ET C/BAT. B ET C - 3 PIECES.pdf",
+     "pages": "p.1",
+     "note": "D4 éclairage + sonnerie"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.43-44"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.5.1",
+   "titre": "Réseaux de télécommunication : TNT et fibre optique",
+   "notice": "Réception des chaînes TNT non cryptées ; raccordement téléphone/Internet ; raccordement fibre si le réseau existe (p.17).",
+   "doe": "Fibre FTTH : schémas de distribution par bâtiment (PBO, cassettes, rocade 48 FO, PTO F1 par logement) et recette OTDR C2FI du 09/06/2026 sur 109 fibres, à 1310 et 1550 nm (218 rapports, tous « Succès »), fichiers .sor joints. TNT : circuit « ALIM. AMPLI TV » dans l'armoire SGX. Coffret de communication Decelect « Essentiel » GOESG3-4 en GTL (4 connecteurs blindés grade 3 TV d'après l'AT2).",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Fibre installée et recettée sans échec ; distribution TV prévue (ampli TV). Le nombre de fibres recettées (109) est cohérent avec les 110 logements cités dans l'AT2. L'écart avec les 112 logements annoncés est à faire confirmer (ce sont peut-être des locaux SG).",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/06. FIBRE - DISTRIBUTIONS ET RECETTES/RECETTE FIBRE THIAIS.pdf",
+     "pages": "p.1-218"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/06. FIBRE - DISTRIBUTIONS ET RECETTES/Schéma de distribution - Bat A.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/04. ARMOIRES - SAUF ARMOIRE PAC/04. ARMOIRE SGX BATIMENT B.pdf",
+     "pages": "p.3",
+     "note": "D3.3 alim. ampli TV"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.26"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/03. AQC - SAUF PORTIERS/AT2-Reseaux-Communication-Logement Bat. A.pdf",
+     "pages": "p.2"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.5.2",
+   "titre": "Prises de communication RJ45 (2 en séjour, 1 en chambres 1 et 2)",
+   "notice": "Deux RJ45 juxtaposées dans le séjour ; une RJ45 dans les chambres 1 et 2 (p.17).",
+   "doe": "Plans : 2 RJ45 juxtaposées au point TV du séjour (B106, B205), 1 RJ45 par chambre, et une RJ45 en plus à l'espace de travail ou au bureau de certains logements. Grade 3 TV d'après l'AT2.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Nombre et position des RJ45 conformes, voire supérieurs, sur les logements sondés.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL20A_IMPLANTATION R+1.pdf",
+     "pages": "B106"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL30A_IMPLANTATION R+2.pdf",
+     "pages": "B205"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/03. AQC - SAUF PORTIERS/AT2-Reseaux-Communication-Logement Bat. A.pdf",
+     "pages": "p.2"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.6",
+   "titre": "Platine de rue avec visiophone COMELIT",
+   "notice": "Sur rue, avant la première porte : platine (avec visiophone) à boutons ou à défilement, de chez COMELIT ou équivalent (p.17).",
+   "doe": "Comelit PIC6 Mat Light + 4681, SBC1 (fiche 33, « Portillon / Extérieur ») : platine vidéo couleur en inox 316L de 2,5 mm, caméra couleur, écran LCD 3,5\" 320×240, appel par défilement de noms, clavier 16 touches rétroéclairé avec braille, synthèse vocale, lecteur de proximité Vigik intégré, IP54, IK08, 500 usagers. Symbole « Platine de rue (portier) » sur les plans RDC et parking.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Même marque (Comelit), avec caméra et défilement, comme demandé. La platine PIC6 en inox 316L avec Vigik intégré se situe dans le haut de la gamme d'interphonie collective Comelit.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.104-108"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENT A.pdf",
+     "pages": "p.93-97"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/PARKING/EL00A_IMPLANTATION PARKING-1.pdf",
+     "pages": "légende"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://res.cloudinary.com/sonepar-fr/raw/upload/s--P8ITkwIK--/v1/documents/1580/Datasheet_PIC6LG_SBC.pdf",
+     "titre": "Comelit PIC6 LG SBC, fiche (Sonepar, résultat de recherche)",
+     "apport": "Gamme PIC6 : platine vidéo Simplebus avec connexion IP intégrée ou via l'accessoire SK9072B. Aucune mention d'un renvoi d'appel natif."
+    }
+   ]
+  },
+  {
+   "article": "2.6.6",
+   "titre": "Lecteur de badge dans le sas COMELIT",
+   "notice": "Dans le sas : un lecteur de badge de chez COMELIT ou équivalent (p.17).",
+   "doe": "Lecteur Vigik Comelit encastré 87 × 55 × 20 mm, centrale monoporte ACM/R Residorg (100 services Vigik, 65 000 badges résidents, programmation PC/Internet, 2000 événements), localisé « SERVICES GENERAUX (ACCES PALIER) » (fiche 12). Bouton de sortie lumineux et sonore inox antivandale, gravé en braille (fiche 13).",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Lecteur de badge Comelit fourni, avec bouton de sortie comme le prévoit la notice.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.40-42"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "2.6.6",
+   "titre": "Combiné audio dans le logement",
+   "notice": "Les appels de la platine de rue aboutissent sur le combiné audio de l'appartement (p.18).",
+   "doe": "Comelit 2708W « Poste audio Mini 2 boutons, Simplebus audio », blanc, 105 × 191 × 28 mm, réglage du volume et coupure de la sonnerie (fiche 8, « Moniteur video » dans le récapitulatif mais fiche audio). Symbole « Interphone » dans l'entrée des logements.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Même marque et même type (combiné audio) que la notice. Le récapitulatif de la fiche produit le nomme « Moniteur video » par erreur : il s'agit bien d'un poste audio, d'entrée de gamme chez Comelit.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.1, p.28-32"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL20A_IMPLANTATION R+1.pdf",
+     "pages": "B106, symbole interphone"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://www.domomat.com/113651-interphone-mini-2-boutons-comelit-comelit-2708w-a.html",
+     "titre": "Interphone Mini 2 boutons Comelit 2708W/A (Domomat, résultat de recherche)",
+     "apport": "Poste audio Mini à combiné et 2 boutons (ouvre-porte et bouton auxiliaire), entrée de gamme Comelit, prix public d'environ 30 à 48 € TTC."
+    }
+   ]
+  },
+  {
+   "article": "2.6.6",
+   "titre": "Renvoi d'appel vers smartphone / tablette",
+   "notice": "Les appels aboutissent aussi sur le smartphone ; chaque appartement peut associer des smartphones ou tablettes (p.18).",
+   "doe": "Aucun module de renvoi d'appel (passerelle, application) ni procédure d'appairage dans le DOE. La fiche de la platine PIC6 mentionne seulement une « Connexion IP via SK9072B ». Les attestations AQC sont livrées « SAUF PORTIERS ».",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Non documenté. Chez Comelit, en Simplebus 2, le renvoi vers smartphone demande un module dédié (art. 1406 Be Smart / SimpleApp, connexion Internet), absent des pièces du DOE. Il faut demander la preuve de l'installation et de la mise en service (module, abonnement Internet des parties communes, notice d'appairage remise aux acquéreurs).",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.104-108"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.28-32"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://res.cloudinary.com/sonepar-fr/raw/upload/s--Q2pXzQEd--/v1/documents/1580/Datasheet_1406.pdf",
+     "titre": "Comelit 1406, module d'envoi d'appel Be Smart (fiche Sonepar)",
+     "apport": "Sur un système Simplebus 2, le renvoi des appels vers smartphone (application SimpleApp) passe par ce module 1406 dédié : connexion Internet, 50 appartements par module, poste intérieur Comelit obligatoire. Le DOE ne contient pas ce module."
+    },
+    {
+     "url": "https://res.cloudinary.com/sonepar-fr/raw/upload/s--P8ITkwIK--/v1/documents/1580/Datasheet_PIC6LG_SBC.pdf",
+     "titre": "Comelit PIC6 LG SBC, fiche (Sonepar, résultat de recherche)",
+     "apport": "Gamme PIC6 : platine vidéo Simplebus avec connexion IP intégrée ou via l'accessoire SK9072B. Aucune mention d'un renvoi d'appel natif."
+    }
+   ]
+  },
+  {
+   "article": "3.1.3",
+   "titre": "Point lumineux des balcons (commande depuis le séjour)",
+   "notice": "Point lumineux avec commande simple depuis le séjour sur chaque balcon (p.18).",
+   "doe": "Applique extérieure SLV Myra 233115 (anthracite, GU10 2 × 35 W max, IP55), commandée par interrupteur témoin depuis le séjour, localisée « Terrasse > 8 m² » (fiche 10). Sur les plans d'étage du bât. B, seuls certains balcons en ont une (balcons sud des R+1 et R+2). Les balcons de B105, B106 (R+1), B201, B202, B205, B206 (R+2) n'ont ni point lumineux ni commande.",
+   "verdict": "rouge",
+   "equivalence": false,
+   "justification": "La notice prévoit un point lumineux sur chaque balcon, sans condition de surface. La fiche produit le limite aux terrasses > 8 m² et les plans DOE n'en montrent pas sur au moins 6 balcons des deux niveaux sondés du bât. B, dont le grand balcon de B202. C'est une prestation absente d'après le DOE, à confirmer sur place.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL20A_IMPLANTATION R+1.pdf",
+     "pages": "plan unique",
+     "note": "Balcons nord B105/B106 sans luminaire ; balcons sud avec Myra"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL30A_IMPLANTATION R+2.pdf",
+     "pages": "plan unique",
+     "note": "Balcons B201/B202/B205/B206 sans luminaire"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.1, p.35-37"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "3.1.3",
+   "titre": "Prise de courant des balcons > 8 m²",
+   "notice": "Les balcons en étage d'une surface supérieure à 8 m² seront équipés d'une prise de courant (p.18).",
+   "doe": "Prise étanche Schneider Mureva Styl 39133 (fiche 11) associée à l'applique Myra sur les balcons qui en ont une. Pas de prise sur les autres balcons, dont le grand balcon de B202 (R+2).",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Les surfaces des balcons ne figurent pas dans le DOE, on ne peut donc pas savoir lesquels dépassent 8 m². Le balcon de B202 paraît grand sur plan et n'a pas de prise. À vérifier.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL30A_IMPLANTATION R+2.pdf",
+     "pages": "plan unique"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.38"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "3.2.3",
+   "titre": "Terrasses : point lumineux et prise de courant",
+   "notice": "Terrasses > 8 m² : prise de courant ; point lumineux commandé depuis le séjour sur chaque terrasse (p.18).",
+   "doe": "Terrasses RDC du bât. B : chaque terrasse a une applique SLV Myra et une prise étanche Mureva Styl, commandées par interrupteur témoin depuis le séjour.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Conforme sur les terrasses sondées (RDC bât. B).",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL10A_IMPLANTATION RDC.pdf",
+     "pages": "plan unique"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.35-39"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "3.3.3",
+   "titre": "Jardins privatifs : prise de courant en façade",
+   "notice": "Prise de courant sur le mur de façade côté jardin si elle n'est pas déjà prévue au titre de 3.2.3 (p.19).",
+   "doe": "Les logements RDC avec jardin ont une terrasse équipée d'une prise étanche Mureva Styl en façade (plan RDC bât. B).",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "La prise côté jardin existe, au titre de la terrasse.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL10A_IMPLANTATION RDC.pdf",
+     "pages": "plan unique"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "3.4.7",
+   "titre": "Luminaires du parking (tubes fluo prévus)",
+   "notice": "Éclairage du parking en sous-sol par tubes fluo (p.19).",
+   "doe": "Réglettes LED étanches Resistex NOCLIP 605203 (1500 mm, platine LED, 28 W / 4697 lm ou 40 W / 6401 lm par dip-switch, 4000 K, IP65, IK10, classe II, L80F10 > 99 000 h, garantie 5 ans), fiches 22 et 30 ; symbole « RESISTEX NOCLIP » sur le plan du parking.",
+   "verdict": "vert",
+   "equivalence": false,
+   "justification": "Des LED à haut rendement (jusqu'à 169 lm/W), IK10 et garanties 5 ans remplacent les tubes fluorescents de la notice. Elles consomment moins et durent plus longtemps : prestation manifestement supérieure.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.1, p.59-62"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/PARKING/EL00A_IMPLANTATION PARKING-1.pdf",
+     "pages": "légende + plan"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://manuals.plus/m/88e8969e366dd7f2936764c44df24554083aaa23cd5a5714d231d6a9fe69be5b",
+     "titre": "Resistex 605201 NOCLIP Industrial LED Luminaire (manuals.plus, résultat de recherche)",
+     "apport": "Gamme NOCLIP de Resistex (fabricant français) : luminaire étanche à platine LED pour locaux industriels et parkings. Les caractéristiques de la 605203 (4697/6401 lm, IP65, IK10, L80 99 000 h, garantie 5 ans) viennent de la fiche du DOE."
+    }
+   ]
+  },
+  {
+   "article": "3.4.7",
+   "titre": "Commande de l'éclairage du parking : 1/3 permanent, 2/3 sur détecteurs",
+   "notice": "1/3 en allumage fixe permanent et 2/3 commandés par détecteurs de présence (p.19).",
+   "doe": "TGBT parking : départ D3 « ECLAIRAGE 2/3 SOUS-SOL -1 » par contacteur, et D3.1 « ECLAIRAGE PERMANENT -1 ». Plan parking : luminaires repérés « PERMANENT » et détecteurs de mouvement plafond et mural. Détecteurs Theben Luxa 1030062 et 1010505 (fiche 24).",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Répartition permanent / sur détection conforme au principe de la notice (le rapport exact de 1/3 n'a pas été recompté luminaire par luminaire).",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/04. ARMOIRES - SAUF ARMOIRE PAC/01. ARMOIRE PARKING.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/PARKING/EL00A_IMPLANTATION PARKING-1.pdf",
+     "pages": "plan"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.73-78"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "3.4.7",
+   "titre": "Blocs autonomes d'éclairage de sécurité (BAES) du parking",
+   "notice": "BAES disposés suivant réglementation (p.19).",
+   "doe": "BAES URA (URAONE évacuation SATI, LED, IP42/IK07, 5 h, NF C 71-800 / NF EN 60598-2-22), fiches 16 et 25 ; BAES haut et BAES bas avec grille sur le plan du parking.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "BAES certifiés NF présents et implantés.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.47-48, p.79-80"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/PARKING/EL00A_IMPLANTATION PARKING-1.pdf",
+     "pages": "légende"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "3.4.7",
+   "titre": "Pré-équipement des bornes de recharge (IRVE, 20 % des places)",
+   "notice": "Chemins de câbles et/ou fourreaux depuis la colonne ou le TGBT jusqu'à chaque emplacement, pour câblage ultérieur, dans la limite de 20 % des places (p.19-20).",
+   "doe": "Aucun chemin de câbles, fourreau ni départ IRVE sur le plan d'implantation du parking ni dans les folios 1-4 du TGBT parking. Le PDF de l'armoire parking ne contient que 4 des 7 folios annoncés.",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Non documenté dans le lot 25. Le pré-équipement relève peut-être d'un autre lot (gros œuvre) ou des folios manquants. Demander le plan et l'attestation du pré-équipement IRVE.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/PARKING/EL00A_IMPLANTATION PARKING-1.pdf",
+     "pages": "plan"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/04. ARMOIRES - SAUF ARMOIRE PAC/01. ARMOIRE PARKING.pdf",
+     "pages": "p.1-4",
+     "note": "folios 1/7 à 4/7 seulement"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "4.1.9",
+   "titre": "Éclairage du hall d'entrée (détecteur temporisé)",
+   "notice": "Spots ou points lumineux en plafond et/ou appliques suivant plans de décoration, commandés par détecteur de présence temporisé (p.20-21).",
+   "doe": "Spots encastrés LED Resistex MIKS 963249 (1185 lm, CCT 2700/3000/4000 K, 11,3 W, IP65, IK07, classe II, garantie 5 ans), « Hall et paliers RDC » (fiche 18) ; détecteurs Kanlux Merge (fiche 15). Les plans RDC bât. B et C montrent de nombreux spots MIKS et des détecteurs plafond dans les halls.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Exigence générique remplie : points lumineux en plafond sur détecteur.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.45, p.51-54"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL10A_IMPLANTATION RDC.pdf",
+     "pages": "Hall B"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT C/C-EL10A_IMPLANTATION RDC.pdf",
+     "pages": "Hall C"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://manuals.plus/m/a7364decf5b9db893ec18993da68ad65bb76e4ed8cc98a52da27d20156f757c3",
+     "titre": "Resistex MIKS 1185lm CCT, spécifications (manuals.plus, résultat de recherche)",
+     "apport": "Spot LED encastré MIKS 1185 lm à CCT réglable, IP65, garantie 5 ans, qui confirme la gamme de la fiche DOE 963249."
+    }
+   ]
+  },
+  {
+   "article": "4.1.6",
+   "titre": "Attente électrique et câble RJ45 pour boîtes à colis connectées",
+   "notice": "Une arrivée électrique et un câble RJ45 seront prévus dans le sas pour l'installation ultérieure de boîtes à colis connectées (p.20).",
+   "doe": "Aucune attente « boîtes à colis » ni RJ45 dans les halls et sas des plans RDC des bât. B et C. La légende n'a pas de symbole correspondant. Le plan RDC du bât. A manque (« en attente MAJ »).",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Non documenté sur les plans DOE. Peut-être réalisé sans être représenté : à vérifier sur place.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL10A_IMPLANTATION RDC.pdf",
+     "pages": "Hall B"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT C/C-EL10A_IMPLANTATION RDC.pdf",
+     "pages": "Hall C"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "4.2.7",
+   "titre": "Éclairage des paliers et circulations (détecteur temporisé)",
+   "notice": "Éclairage par appliques murales décoratives ou plafonniers, allumage par détecteur de présence temporisé (p.21).",
+   "doe": "Spots LED Resistex MIKS 963249 aux « Palier d'étages » (fiche 19) et détecteurs Kanlux Merge. Armoire SGX bât. B : un départ éclairage par niveau (RDC, 1er… 5e étage).",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Points lumineux en plafond sur détection : conforme.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.1, p.55-58"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/04. ARMOIRES - SAUF ARMOIRE PAC/04. ARMOIRE SGX BATIMENT B.pdf",
+     "pages": "p.1-2"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL30A_IMPLANTATION R+2.pdf",
+     "pages": "Palier R+2"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://manuals.plus/m/a7364decf5b9db893ec18993da68ad65bb76e4ed8cc98a52da27d20156f757c3",
+     "titre": "Resistex MIKS 1185lm CCT, spécifications (manuals.plus, résultat de recherche)",
+     "apport": "Spot LED encastré MIKS 1185 lm à CCT réglable, IP65, garantie 5 ans, qui confirme la gamme de la fiche DOE 963249."
+    }
+   ]
+  },
+  {
+   "article": "4.2.7",
+   "titre": "Prise 16 A dans la gaine technique palière (services généraux)",
+   "notice": "1 prise de courant 16 A+T dans la gaine technique palière de tous les niveaux, sur le circuit des services généraux (p.21).",
+   "doe": "Armoire SGX bât. B : départ D3.2 « PRISE DE COURANT GAINE TECHNIQUE ». Appareillage étanche Schneider Mureva saillie localisé « Gaines » (fiche 17).",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Circuit SG dédié et appareillage prévus (présence à chaque niveau non recomptée).",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/04. ARMOIRES - SAUF ARMOIRE PAC/04. ARMOIRE SGX BATIMENT B.pdf",
+     "pages": "p.3"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.49-50"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "4.3.5",
+   "titre": "Hublots des circulations du sous-sol (SARLAM Chartres)",
+   "notice": "Éclairage par hublot en plafond de modèle Chartres de chez SARLAM, ou équivalent, commandé par détecteur temporisé (p.22).",
+   "doe": "Contradiction entre pièces. La légende du plan parking indique « SARLAM CHARTRE » (plafond et applique) dans les sas et accès ascenseurs. La fiche produit prévoit le plafonnier Kanlux DABA PRO 25W NW-W 19064 pour « Escaliers et Sas » du parking (fiche 26 : 25 W, 2800 lm, IP65, IK10, 4000 K, 50 000 h, garantie 5 ans). Les circulations elles-mêmes sont en réglettes Resistex NOCLIP. Détecteurs Theben.",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "On ne sait pas lequel des deux luminaires est posé. Si c'est le Kanlux, il fait mieux que le Chartres Essentiel 1500 lm sur le flux (2800 lm), l'IP (65 contre 55) et la garantie (5 ans contre 2), à IK égal (IK10). Mais il s'agit d'un produit d'entrée de gamme (environ 29 € HT pro contre 277 € HT de tarif de référence pour le Chartres), sans marque NF. L'équivalence est plausible, non démontrée.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/PARKING/EL00A_IMPLANTATION PARKING-1.pdf",
+     "pages": "légende + plan"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.1, p.83-86"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://www.legrand.fr/pro/catalogue/41818-taille-1-1500-lm/hublot-chartres-essentiel-standard-gris-metal-taille-1-a-led-1500lm-fonction-on-et-off",
+     "titre": "Hublot Chartres Essentiel standard taille 1 LED 1500 lm (SARLAM / Legrand)",
+     "apport": "Référence de la notice : SL532108, 1500 lm, 14-15 W, 4000 K, IP55, IK10, classe II, polycarbonate, certifié NF Luminaires, garantie 2 ans, tarif pro de référence 277,20 € HT."
+    },
+    {
+     "url": "https://www.kanlux.com/en/product/19064",
+     "titre": "Kanlux DABA PRO 25W NW-W (19064)",
+     "apport": "Produit de la fiche DOE : 25 W, 2800 lm (112 lm/W), 4000 K, IP65, IK10, classe II, durée de vie 50 000 h, garantie 5 ans, corps plastique et diffuseur PC. Pas de marque NF mentionnée."
+    },
+    {
+     "url": "https://bankoflamps.com/daba-pro-25w-nw-w-5905339190642",
+     "titre": "DABA PRO 25W NW-W, fiche revendeur B2B (résultat de recherche)",
+     "apport": "Prix professionnel d'environ 28,69 € HT, soit un produit d'entrée de gamme comparé au tarif de référence du hublot Chartres."
+    }
+   ]
+  },
+  {
+   "article": "4.4.6",
+   "titre": "Appliques des cages d'escaliers (SARLAM)",
+   "notice": "Éclairage par appliques de marque SARLAM ou équivalent, commandées par détecteurs temporisés (p.22).",
+   "doe": "Plans RDC bât. B et C : dans les escaliers, symboles « SARLAM CHARTRE » en applique murale, avec plafonniers « DABA Pro » et détecteurs. La fiche produit ne prévoit pour les escaliers que le plafonnier Kanlux DABA PRO 19064 (fiche 21) et ne contient aucune fiche SARLAM. La légende cite aussi des « KANLUX VARSO HF ».",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Les plans montrent bien des appliques SARLAM Chartres, ce qui correspond à la notice, mais le dossier de fiches produits ne les documente pas et annonce un plafonnier Kanlux. Il y a contradiction entre documents : à lever par une visite ou par le bon de livraison.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL10A_IMPLANTATION RDC.pdf",
+     "pages": "escalier vers PK R-1 B"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT C/C-EL10A_IMPLANTATION RDC.pdf",
+     "pages": "escaliers bât. C"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.1, p.63-66"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://www.legrand.fr/pro/catalogue/41818-taille-1-1500-lm/hublot-chartres-essentiel-standard-gris-metal-taille-1-a-led-1500lm-fonction-on-et-off",
+     "titre": "Hublot Chartres Essentiel standard taille 1 LED 1500 lm (SARLAM / Legrand)",
+     "apport": "Référence de la notice : SL532108, 1500 lm, 14-15 W, 4000 K, IP55, IK10, classe II, polycarbonate, certifié NF Luminaires, garantie 2 ans, tarif pro de référence 277,20 € HT."
+    },
+    {
+     "url": "https://www.kanlux.com/en/product/19064",
+     "titre": "Kanlux DABA PRO 25W NW-W (19064)",
+     "apport": "Produit de la fiche DOE : 25 W, 2800 lm (112 lm/W), 4000 K, IP65, IK10, classe II, durée de vie 50 000 h, garantie 5 ans, corps plastique et diffuseur PC. Pas de marque NF mentionnée."
+    }
+   ]
+  },
+  {
+   "article": "4.5.1",
+   "titre": "Éclairage du local vélos (hublot SARLAM Chartres sur détecteur)",
+   "notice": "Éclairage par hublot de modèle Chartres de chez SARLAM, ou équivalent, commandé par détecteur de présence (p.22).",
+   "doe": "Locaux vélos RDC B, RDC C et parking (bât. A et B) : réglettes LED étanches Resistex NOCLIP (1500 mm, 4697 lm, IP65, IK10) et détecteur de mouvement mural. Départs dédiés « Eclairage local vélo poussette » au TGBT parking et « Alim. local vélos » à l'armoire SGX.",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Ce n'est pas un hublot Chartres mais une réglette LED étanche et antichoc de flux bien supérieur (environ 4700 lm contre 1000-1500 lm). L'équivalence fonctionnelle est probable, voire favorable, mais ce n'est pas le même type de luminaire. La commande par détecteur est conforme.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL10A_IMPLANTATION RDC.pdf",
+     "pages": "L. VELOS B"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT C/C-EL10A_IMPLANTATION RDC.pdf",
+     "pages": "L. VELOS C"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/PARKING/EL00A_IMPLANTATION PARKING-1.pdf",
+     "pages": "L. vélos bât. A et B"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/04. ARMOIRES - SAUF ARMOIRE PAC/01. ARMOIRE PARKING.pdf",
+     "pages": "p.1"
+    }
+   ],
+   "sources_web": [
+    {
+     "url": "https://www.legrand.fr/pro/catalogue/41818-taille-1-1500-lm/hublot-chartres-essentiel-standard-gris-metal-taille-1-a-led-1500lm-fonction-on-et-off",
+     "titre": "Hublot Chartres Essentiel standard taille 1 LED 1500 lm (SARLAM / Legrand)",
+     "apport": "Référence de la notice : SL532108, 1500 lm, 14-15 W, 4000 K, IP55, IK10, classe II, polycarbonate, certifié NF Luminaires, garantie 2 ans, tarif pro de référence 277,20 € HT."
+    },
+    {
+     "url": "https://manuals.plus/m/88e8969e366dd7f2936764c44df24554083aaa23cd5a5714d231d6a9fe69be5b",
+     "titre": "Resistex 605201 NOCLIP Industrial LED Luminaire (manuals.plus, résultat de recherche)",
+     "apport": "Gamme NOCLIP de Resistex (fabricant français) : luminaire étanche à platine LED pour locaux industriels et parkings. Les caractéristiques de la 605203 (4697/6401 lm, IP65, IK10, L80 99 000 h, garantie 5 ans) viennent de la fiche du DOE."
+    }
+   ]
+  },
+  {
+   "article": "4.5.1",
+   "titre": "Prise de recharge des vélos électriques (services généraux)",
+   "notice": "Une prise de courant raccordée sur les services généraux pour la recharge des vélos électriques (p.22).",
+   "doe": "Prise 16 A étanche H 1,10 m dans chaque local vélos (RDC B, RDC C, parking A et B), sur départs SG « Prise de courant locaux » (TGBT parking D4.1, SGX D3.1).",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Conforme.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL10A_IMPLANTATION RDC.pdf",
+     "pages": "L. VELOS B"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT C/C-EL10A_IMPLANTATION RDC.pdf",
+     "pages": "L. VELOS C"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/04. ARMOIRES - SAUF ARMOIRE PAC/01. ARMOIRE PARKING.pdf",
+     "pages": "p.2"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "5.1",
+   "titre": "Ascenseurs : charge, vitesse, sans local machine, desserte du sous-sol",
+   "notice": "Ascenseur(s) électrique(s) de 630 ou 1000 kg, 0,63 ou 1 m/s, machinerie en gaine sans local technique, desservant tous les étages et le sous-sol (p.23).",
+   "doe": "3 appareils ORONA (XF13344JT bât. A, XF13345JT bât. B, XF13346JT bât. C), modèle M34E-MRL, gamme ORONA Next Essentia E10 : 630 kg / 8 personnes, 1,00 m/s, machine gearless 4,48 kW au dernier niveau « sans machinerie », variateur VF, 7 niveaux desservis (-1 à 5), course 17 m, cabine 1100 × 1400 mm, portes automatiques de 900 mm. Conforme EN 81-20/50:2020, EN 81-28, EN 81-70, EN 81-58, attestation UE de type Liftinstituut NL17-400-1002-035-39.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Charge, vitesse, type sans local machine et desserte du sous-sol identiques à la notice, pour les trois bâtiments.",
+   "sources_doe": [
+    {
+     "fichier": "17 - Ascenseur/ORONA/_DOE_unzipped/DOE - XF13344JT.pdf",
+     "pages": "p.4, p.7, p.93-102"
+    },
+    {
+     "fichier": "17 - Ascenseur/ORONA/_DOE_unzipped/DOE - XF13345JT.pdf",
+     "pages": "p.4, p.7"
+    },
+    {
+     "fichier": "17 - Ascenseur/ORONA/_DOE_unzipped/DOE - XF13346JT.pdf",
+     "pages": "p.4, p.7"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "5.1",
+   "titre": "Portes palières des ascenseurs",
+   "notice": "Les portes palières seront peintes (p.23).",
+   "doe": "Portes palières automatiques E120, en tôle aux niveaux -1, 1 à 5 et en inox au niveau 0 (RDC).",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Portes en tôle (finition non précisée) en étage et inox au RDC, ce qui est une finition au moins égale. La finition peinte des niveaux en tôle n'est pas explicitement décrite.",
+   "sources_doe": [
+    {
+     "fichier": "17 - Ascenseur/ORONA/_DOE_unzipped/DOE - XF13344JT.pdf",
+     "pages": "p.94"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "5.1",
+   "titre": "Cabine : parois mélaminées ou tôle plastifiée, miroir, sol carrelé, éclairage",
+   "notice": "Parois en revêtement mélaminé ou tôle plastifiée et miroir ; sol carrelé identique au palier RDC ; éclairage intégré au plafond ou en paroi (p.23).",
+   "doe": "Le DOE ORONA ne décrit pas la décoration de la cabine (parois, miroir, sol, plafond) : seuls figurent les caractéristiques techniques, les plans de gaine et les schémas. Il mentionne un éclairage d'urgence en toit de cabine (option 2).",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Non documenté dans ce DOE (1er envoi). Demander la fiche de finition cabine ou le bon de commande ORONA.",
+   "sources_doe": [
+    {
+     "fichier": "17 - Ascenseur/ORONA/_DOE_unzipped/DOE - XF13344JT.pdf",
+     "pages": "p.7, p.93-102, p.144"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "5.1",
+   "titre": "Téléalarme (liaison permanente cabine / société de maintenance)",
+   "notice": "Liaison téléphonique permanente entre la cabine et la société de maintenance (p.23).",
+   "doe": "Système d'alarme EN 81-28 à communication bidirectionnelle permanente avec un service d'intervention, test automatique au moins tous les 3 jours, autonomie de plus d'1 h, module 4G (insertion de carte SIM) ou ligne téléphonique « si GSM pas contracté ».",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Conforme à l'exigence et à la norme.",
+   "sources_doe": [
+    {
+     "fichier": "17 - Ascenseur/ORONA/_DOE_unzipped/DOE - XF13344JT.pdf",
+     "pages": "p.97-98, p.252-257"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "5.1",
+   "titre": "Contact à clé et lecteur Vigik pour l'accès au sous-sol (cabine et palier -1)",
+   "notice": "Contact à clé en cabine et au palier du sous-sol ; lecteur Vigik en cabine et au palier sous-sol (p.23).",
+   "doe": "Les DOE ORONA ne mentionnent ni contact à clé d'accès au niveau -1 ni lecteur Vigik : la liste des options des schémas électriques n'en contient pas. Les fiches produits du lot 25 non plus.",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Non documenté. Ces équipements sont souvent fournis par le lot contrôle d'accès ou par l'ascensoriste en option : demander le justificatif.",
+   "sources_doe": [
+    {
+     "fichier": "17 - Ascenseur/ORONA/_DOE_unzipped/DOE - XF13344JT.pdf",
+     "pages": "p.144"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.1"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "5.6.1",
+   "titre": "Comptages des services généraux et sous-comptage des ascenseurs",
+   "notice": "Comptages SG (parties communes et VMC par cage ; éclairage parking, portes, extérieur pour l'ensemble) ; sous-comptages ascenseurs par cage (p.24-25).",
+   "doe": "Armoire SGX bât. B : branchement 30-60 A, compteurs d'énergie RS485 sur l'éclairage des parties communes, sur les prises et courants faibles, et un compteur dédié « ASC 1 ». TGBT parking : compteurs RS485 sur les éclairages et les prises SG, et compteur à impulsions sur l'éclairage extérieur.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Comptages et sous-comptages prévus comme décrit. Les PDF des armoires ne contiennent que 4 folios sur 8 (SGX) et 4 sur 7 (parking).",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/04. ARMOIRES - SAUF ARMOIRE PAC/04. ARMOIRE SGX BATIMENT B.pdf",
+     "pages": "p.1-4"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/04. ARMOIRES - SAUF ARMOIRE PAC/01. ARMOIRE PARKING.pdf",
+     "pages": "p.1-4"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "5.6.3",
+   "titre": "Comptages particuliers / compteurs Linky",
+   "notice": "Tableaux et compteurs dans les appartements ; lignes de téléreport ou compteurs « LINKY » (p.25).",
+   "doe": "Platine ENEDIS (DB 2P 15/45 A ou 60 A) en tête de chaque tableau abonné, dans la GTL Cofrelec. Le compteur lui-même (Linky) n'est pas documenté, puisqu'il est fourni par Enedis. Consuels logements fournis.",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Emplacement prévu, mais la pose effective d'un compteur Linky n'est pas documentée dans le DOE (elle relève d'Enedis).",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/05. TABLEAUX ABONNES/BATIMENTS B ET C/BAT. B ET C - 3 PIECES.pdf",
+     "pages": "p.1"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.19-21"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "5.7.1",
+   "titre": "Internet des parties communes et câblage des attentes (colis, vidéoprotection)",
+   "notice": "Connexion Internet des parties communes reliée à l'interphonie et au tableau IRVE ; câblage en attente vers les casiers à colis et le local de vidéoprotection (p.25).",
+   "doe": "Départ « ALIM. COURANT FAIBLE » dans les armoires SGX et parking. Pas de box, de baie, de schéma courant faible ni d'attentes repérées dans le DOE.",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Non documenté dans ce DOE (1er envoi).",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/04. ARMOIRES - SAUF ARMOIRE PAC/04. ARMOIRE SGX BATIMENT B.pdf",
+     "pages": "p.3"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/04. ARMOIRES - SAUF ARMOIRE PAC/01. ARMOIRE PARKING.pdf",
+     "pages": "p.2"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "5.7.2",
+   "titre": "Caméras de vidéoprotection (halls, locaux vélos, accès véhicules)",
+   "notice": "Caméras dans les halls d'entrée, les locaux vélos et à l'accès véhicules (p.25).",
+   "doe": "Symbole « CAMERA MINI DOME » (sans marque ni référence) sur les plans : hall B, hall C, local vélos C, et une caméra au droit de l'accès ou de la rampe au RDC B. Pas de caméra dans le local vélos RDC B ni dans les locaux vélos du parking (bât. A et B). Plan RDC du bât. A absent. Aucune fiche produit de caméra.",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "La couverture est partielle sur les plans (locaux vélos B et parking sans caméra) et le matériel n'est pas documenté. Il manque peut-être un plan du lot courants faibles : à compléter.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL10A_IMPLANTATION RDC.pdf",
+     "pages": "Hall B, L. vélos B"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT C/C-EL10A_IMPLANTATION RDC.pdf",
+     "pages": "Hall C, L. vélos C"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/PARKING/EL00A_IMPLANTATION PARKING-1.pdf",
+     "pages": "aucun symbole caméra"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "5.7.2",
+   "titre": "Enregistreur (disques intégrés, conservation 30 jours) et panneau de signalisation",
+   "notice": "Caméras raccordées à un enregistreur à disques intégrés, conservation jusqu'à 30 jours (FIFO), installé en local ou gaine fermée ; panneau de signalisation dans le hall (p.25).",
+   "doe": "Aucun enregistreur, moniteur ou panneau documenté dans le DOE (pas de fiche, pas de symbole).",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Non documenté. Demander la fiche de l'enregistreur (capacité, durée de conservation paramétrée) et son emplacement.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.1"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "6.5.1",
+   "titre": "Éclairage de l'entrée des immeubles (interrupteur crépusculaire + horloge)",
+   "notice": "Spots ou appliques au droit de l'entrée, commandés par interrupteur crépusculaire relié à une horloge (p.26).",
+   "doe": "Appliques SLV Myra 233115 au-dessus des entrées et des platines (plans RDC B et C). TGBT parking : départ D9.1 « ECLAIRAGE EXTERIEUR » commandé par un interrupteur horaire astronomique (symbole soleil/lune), sous comptage dédié.",
+   "verdict": "bleu",
+   "equivalence": true,
+   "justification": "Un interrupteur astronomique calcule les heures de lever et de coucher du soleil et cumule les fonctions crépusculaire et horloge : équivalent fonctionnel de la notice.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT B/B-EL10A_IMPLANTATION RDC.pdf",
+     "pages": "entrée Hall B"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/BAT C/C-EL10A_IMPLANTATION RDC.pdf",
+     "pages": "entrée Hall C"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/04. ARMOIRES - SAUF ARMOIRE PAC/01. ARMOIRE PARKING.pdf",
+     "pages": "p.4"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "6.5.2",
+   "titre": "Éclairage des voiries et espaces extérieurs (bornes / appliques)",
+   "notice": "Appliques murales, bornes lumineuses ou candélabres suivant plan, commandés par interrupteur crépusculaire relié à une horloge (p.26).",
+   "doe": "Bornes SLV Quadrastyl 232295 (IP44, anthracite, H 75 cm) d'après la fiche 35, mais la légende du plan parking indique « BORNE SLV APONI 1000683 ». Plan « Implantation bornes extérieures ». Détecteurs Theben 1010505 en extérieur. Commande par interrupteur astronomique (D9.1) ; le départ D9.2 n'a pas de commande représentée.",
+   "verdict": "bleu",
+   "equivalence": false,
+   "justification": "Exigence générique remplie : bornes lumineuses avec commande astronomique. Le modèle de borne diffère entre la fiche et le plan (Quadrastyl ou Aponi, même marque SLV), sans incidence sur la notice.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.109-117"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/01. PLANS - SAUF BAT. A RDC EN ATTENTE MAJ FD DE PLAN/PARKING/EL00A_IMPLANTATION PARKING-1.pdf",
+     "pages": "légende"
+    },
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/04. ARMOIRES - SAUF ARMOIRE PAC/01. ARMOIRE PARKING.pdf",
+     "pages": "p.4"
+    }
+   ],
+   "sources_web": []
+  },
+  {
+   "article": "7",
+   "titre": "Organigramme des clés : 3 badges Vigik et 3 clés par logement",
+   "notice": "3 clés de proximité Vigik (hall, ascenseur) et 3 clés de porte palière par appartement ; accès hall, sous-sol depuis le hall et l'ascenseur, appel ascenseur depuis le sous-sol, locaux vélos (p.27).",
+   "doe": "Ni le lot 25 ni le lot 17 ne documentent le nombre de badges remis ni l'organigramme. Seule la centrale Vigik Comelit ACM/R (65 000 badges) est décrite.",
+   "verdict": "orange",
+   "equivalence": false,
+   "justification": "Non documenté dans ce DOE. Demander le PV de remise des badges et l'organigramme.",
+   "sources_doe": [
+    {
+     "fichier": "25 - Electricité/C2FI - DOE - LOT N°25A & 25B - ELECTRICITE - C2FI/02. FICHES PRODUITS/FICHES PRODUITS BATIMENTS B ET C.pdf",
+     "pages": "p.40-41"
+    }
+   ],
+   "sources_web": []
+  }
+ ],
+ "observations": "Pièces manquantes ou incomplètes du DOE : plan d'implantation RDC du bât. A absent (dossier « SAUF BAT. A RDC EN ATTENTE MAJ ») ; attestations AQC « SAUF PORTIERS » (pas d'autocontrôle interphonie) ; consuel « SAUF PARKING » ; armoires SGX livrées sur 4 folios sur 8 et TGBT parking sur 4 folios sur 7 ; armoire PAC exclue. Les tableaux abonnés et les armoires sont des PDF scannés (lecture visuelle). Contradictions internes : la fiche « Tableau électrique » montre du Schneider Resi9 alors que les schémas des tableaux abonnés montrent du Legrand DX3/DNX3 ; pour les luminaires des escaliers et des sas du sous-sol, les plans indiquent SARLAM Chartre et la fiche produit Kanlux DABA PRO ; pour la borne extérieure, la fiche indique SLV Quadrastyl et le plan SLV Aponi ; le récapitulatif nomme « Moniteur video » un poste audio Comelit 2708W. Le sondage logement a porté sur B106 (T2 VEFA) et B205 (T3 VEFA) ; B105 et les lots TMA (travaux modificatifs acquéreurs) ont été écartés. Point le plus net : les balcons des niveaux sondés du bât. B ne sont équipés (applique Myra + prise) que sur une partie des balcons, la fiche produit limitant l'applique aux « terrasses > 8 m² », alors que la notice prévoit un point lumineux sur chaque balcon. Éléments hors notice ou supérieurs : prises USB dans les chambres et cuisines, RJ45 supplémentaire dans les espaces de travail, DAAF radio interconnectés, éclairage 100 % LED dans les parties communes et le parking, platine Comelit PIC6 en inox 316L. La fibre a été recettée sur 109 fibres (OTDR 1310/1550 nm, toutes « Succès »). Le lot 25 comprend aussi l'installation photovoltaïque (ISB, Huawei SUN2000, modules DMEGC), hors périmètre de la notice. Ascenseurs ORONA conformes en charge, vitesse, type et desserte ; la finition de la cabine et l'accès au sous-sol par clé et Vigik ne sont pas documentés."
+}
